@@ -1,0 +1,1295 @@
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "total": 24,
+    "link": [
+        {
+            "relation": "search",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=164e4446-00f1-404d-81b6-e79591aaa95c&_include=%2A&subject=P00805884304"
+        },
+        {
+            "relation": "first",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=164e4446-00f1-404d-81b6-e79591aaa95c&_include=%2A&subject=P00805884304"
+        },
+        {
+            "relation": "self",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=164e4446-00f1-404d-81b6-e79591aaa95c&_include=%2A&subject=P00805884304"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/164e4446-00f1-404d-81b6-e79591aaa95c",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "164e4446-00f1-404d-81b6-e79591aaa95c",
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.kemkes.go.id",
+                            "code": "TK000014",
+                            "display": "Data Registrasi Uronefrologi"
+                        }
+                    ]
+                },
+                "title": "Data Registrasi Uronefrologi",
+                "date": "2024-04-24T03:15:00+00:00",
+                "author": [
+                    {
+                        "display": "dr. Bronsig",
+                        "reference": "Practitioner/N10000001"
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/10000002"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "subject": [{
+                    "display": "Patient_Name",
+                    "reference": "Patient/P00805884304"
+                }],
+                "identifier": [{
+                    "system": "http://sys-ids.kemkes.go.id/creator",
+                    "value": "10000002"
+                }],
+                "section": [
+                    {
+                        "title": "Episode Perawatan",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000002",
+                                    "display": "Episode Perawatan"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Episode Perawatan Registrasi Uronefrologi",
+                                "reference": "EpisodeOfCare/c5b0b46a-ce31-4260-981d-a0a9b15bab6e"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Anamnesis",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000003",
+                                    "display": "Anamnesis"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Keluhan Utama",
+                                "reference": "Condition/e3d8b113-f161-4cb2-aa72-fb189ac0dbd0"
+                            },
+                            {
+                                "display": "Riwayat Obstruksi Saluran Kemih",
+                                "reference": "Condition/93120878-e240-4dc1-8e56-e79da2faf872"
+                            },
+                            {
+                                "display": "Observasi Faktor Risiko Hipertensi",
+                                "reference": "Observation/bc54a402-6c42-40e6-8f62-924e01e136f4"
+                            },
+                            {
+                                "display": "Observasi Faktor Risiko Diabetes Mellitus",
+                                "reference": "Observation/143b575b-43ff-439b-b1fa-46ff63f5128e"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pemeriksaan Fisik",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000007",
+                                    "display": "Pemeriksaan Fisik"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi Tekanan Darah Diastol",
+                                "reference": "Observation/a520c046-b667-4c85-8311-482a0aa83095"
+                            },
+                            {
+                                "display": "Observasi Tekanan Darah Sistol",
+                                "reference": "Observation/4a23d269-bb9d-4854-a1b8-5ecabcb70453"
+                            },
+                            {
+                                "display": "Observasi Berat Badan",
+                                "reference": "Observation/08cdd90b-a1d7-4102-90c2-ac189a5db086"
+                            },
+                            {
+                                "display": "Observasi Tinggi Badan",
+                                "reference": "Observation/f7dfe435-01c9-47a2-b59d-cc948526bac0"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Hasil Pemeriksaan Penunjang",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000009",
+                                    "display": "Hasil Pemeriksaan Penunjang"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi Creatinine",
+                                "reference": "Observation/d684f189-16f0-45e8-90f4-bd908aee4c62"
+                            },
+                            {
+                                "display": "Observasi eGFR",
+                                "reference": "Observation/20ac794a-d4b1-4471-bc78-53b23f398436"
+                            },
+                            {
+                                "display": "Observasi USG Ginjal Kanan",
+                                "reference": "Observation/44c7cc68-07c6-4e46-9c9d-1441bf032692"
+                            },
+                            {
+                                "display": "Observasi USG Ginjal Kiri",
+                                "reference": "Observation/d66dd8fd-117a-45a0-a66c-497ed6ad0664"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pemeriksaan Uronefrologi",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000015",
+                                    "display": "Pemeriksaan Uronefrologi"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi Batu Saluran Kemih",
+                                "reference": "Observation/6fd79261-7933-4863-b976-39d29b8483a7"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Diagnosis",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000004",
+                                    "display": "Diagnosis"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Diagnosis Gagal Ginjal Grade-4",
+                                "reference": "Condition/a0ae133c-9469-4107-a5b2-1311a122ece1"
+                            },
+                            {
+                                "display": "Diagnosis Batu Ginjal",
+                                "reference": "Condition/ced21ea3-f8a6-4b30-8d13-2586c4984315"
+                            },
+                            {
+                                "display": "Diagnosis Hipertensi",
+                                "reference": "Condition/2578abce-04d1-484a-9a67-73dbbfc79cac"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Tindakan/Prosedur Medis",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000005",
+                                    "display": "Tindakan/Prosedur Medis"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Prosedur Hemodialisa",
+                                "reference": "Procedure/904c010f-8230-4a21-acf6-0948d3401d38"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Obat",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000013",
+                                    "display": "Obat"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Peresepan Obat Captopril",
+                                "reference": "MedicationRequest/b2d6c3e9-affb-49d8-849b-7de979d3c48b"
+                            }
+                        ]
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-07-29T07:58:42.713883+00:00",
+                    "versionId": "MTcyMjIzOTkyMjcxMzg4MzAwMA"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Encounter/1fb50556-ad92-45bf-82be-15c32b005824",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "1fb50556-ad92-45bf-82be-15c32b005824",
+                "status": "finished",
+                "class": [
+                    {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "AMB",
+                    "display": "ambulatory"
+                }
+                ],
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "serviceProvider": {
+                    "reference": "Organization/10000002"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "code": "ATND",
+                                        "display": "attender"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "display": "dr. Bronsig",
+                            "reference": "Practitioner/N10000001"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2024-04-24T03:00:00+00:00",
+                    "end": "2024-04-24T04:00:00+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Practitioner/N10000001",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "N10000001",
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "dr. Bronsig"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nakes-his-number",
+                        "value": "N10000001"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Organization/10000002",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "10000002",
+                "name": "Fasilitas Kesehatan 10000002",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/organization",
+                        "value": "10000002"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P00805884304",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "P00805884304",
+                "name": [
+                    {
+                        "text": "Patient_Name"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/EpisodeOfCare/c5b0b46a-ce31-4260-981d-a0a9b15bab6e",
+            "resource": {
+                "resourceType": "EpisodeOfCare",
+                "id": "c5b0b46a-ce31-4260-981d-a0a9b15bab6e",
+                "status": "active",
+                "patient": {
+                    "reference": "Patient/P00805884304"
+                },
+                "managingOrganization": {
+                    "reference": "Organization/10000002"
+                },
+                "period": {
+                    "start": "2024-04-24T03:15:00+00:00"
+                },
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/episode-of-care/10000002",
+                        "value": "EOC-URONEF-20240424-0001"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/e3d8b113-f161-4cb2-aa72-fb189ac0dbd0",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "e3d8b113-f161-4cb2-aa72-fb189ac0dbd0",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "text": "Keluhan utama: nyeri pinggang kanan"
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "recordedDate": "2024-04-24T03:15:00+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/93120878-e240-4dc1-8e56-e79da2faf872",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "93120878-e240-4dc1-8e56-e79da2faf872",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "text": "Riwayat obstruksi saluran kemih"
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "onsetDateTime": "2024-04-01T00:00:00+00:00",
+                "recordedDate": "2024-04-24T03:15:00+00:00",
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/bc54a402-6c42-40e6-8f62-924e01e136f4",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "bc54a402-6c42-40e6-8f62-924e01e136f4",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "social-history",
+                                "display": "Social History"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "38341003",
+                            "display": "Hypertension"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:20:00+00:00",
+                "valueBoolean": true
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/143b575b-43ff-439b-b1fa-46ff63f5128e",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "143b575b-43ff-439b-b1fa-46ff63f5128e",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "social-history",
+                                "display": "Social History"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "73211009",
+                            "display": "Diabetes mellitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:20:00+00:00",
+                "valueBoolean": false
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/a520c046-b667-4c85-8311-482a0aa83095",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "a520c046-b667-4c85-8311-482a0aa83095",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8462-4",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "368209003",
+                            "display": "Right arm"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:25:00+00:00",
+                "valueQuantity": {
+                    "value": 85,
+                    "unit": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm[Hg]"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/4a23d269-bb9d-4854-a1b8-5ecabcb70453",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "4a23d269-bb9d-4854-a1b8-5ecabcb70453",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8480-6",
+                            "display": "Systolic blood pressure"
+                        }
+                    ]
+                },
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "368209003",
+                            "display": "Right arm"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:25:00+00:00",
+                "valueQuantity": {
+                    "value": 140,
+                    "unit": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm[Hg]"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/08cdd90b-a1d7-4102-90c2-ac189a5db086",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "08cdd90b-a1d7-4102-90c2-ac189a5db086",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "29463-7",
+                            "display": "Body weight"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:25:00+00:00",
+                "valueQuantity": {
+                    "value": 70,
+                    "unit": "kg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "kg"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/f7dfe435-01c9-47a2-b59d-cc948526bac0",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "f7dfe435-01c9-47a2-b59d-cc948526bac0",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8302-2",
+                            "display": "Body height"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:25:00+00:00",
+                "valueQuantity": {
+                    "value": 168,
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/d684f189-16f0-45e8-90f4-bd908aee4c62",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "d684f189-16f0-45e8-90f4-bd908aee4c62",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2160-0",
+                            "display": "Creatinine [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:40:00+00:00",
+                "valueQuantity": {
+                    "value": 2.6,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg/dL"
+                },
+                "performer": [
+                    {
+                        "reference": "Organization/10000002"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/20ac794a-d4b1-4471-bc78-53b23f398436",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "20ac794a-d4b1-4471-bc78-53b23f398436",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "33914-3",
+                            "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area]"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:40:00+00:00",
+                "valueQuantity": {
+                    "value": 25,
+                    "unit": "mL/min/1.73m2",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mL/min/1.73m2"
+                },
+                "performer": [
+                    {
+                        "reference": "Organization/10000002"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/44c7cc68-07c6-4e46-9c9d-1441bf032692",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "44c7cc68-07c6-4e46-9c9d-1441bf032692",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "imaging",
+                                "display": "Imaging"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "30764-1",
+                            "display": "Kidney right US"
+                        }
+                    ],
+                    "text": "USG Ginjal Kanan"
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:50:00+00:00",
+                "valueString": "Batu 6 mm pada calyx medius ginjal kanan",
+                "performer": [
+                    {
+                        "reference": "Organization/10000002"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/d66dd8fd-117a-45a0-a66c-497ed6ad0664",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "d66dd8fd-117a-45a0-a66c-497ed6ad0664",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "imaging",
+                                "display": "Imaging"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "30765-8",
+                            "display": "Kidney left US"
+                        }
+                    ],
+                    "text": "USG Ginjal Kiri"
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "effectiveDateTime": "2024-04-24T03:50:00+00:00",
+                "valueString": "Tidak tampak batu, ukuran ginjal dalam batas",
+                "performer": [
+                    {
+                        "reference": "Organization/10000002"
+                    }
+                ]
+            }
+        },
+        {
+            "resourceType": "Observation",
+            "id": "6fd79261-7933-4863-b976-39d29b8483a7",
+            "status": "final",
+            "category": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                            "code": "exam",
+                            "display": "Exam"
+                        }
+                    ]
+                }
+            ],
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "95566004",
+                        "display": "Urinary stone"
+                    }
+                ]
+            },
+            "subject": {
+                "reference": "Patient/P00805884304"
+            },
+            "encounter": {
+                "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+            },
+            "effectiveDateTime": "2024-04-24T03:55:00+00:00",
+            "derivedFrom": [
+                {
+                    "reference": "Observation/44c7cc68-07c6-4e46-9c9d-1441bf032692"
+                },
+                {
+                    "reference": "Observation/d66dd8fd-117a-45a0-a66c-497ed6ad0664"
+                }
+            ],
+            "valueBoolean": true,
+            "bodySite": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "9846003",
+                        "display": "Right kidney"
+                    }
+                ]
+            },
+            "component": [
+                {
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term",
+                                "code": "OC000173",
+                                "display": "Derajat hidronefrosis"
+                            }
+                        ]
+                    },
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "258352004",
+                                "display": "Grade 2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term",
+                                "code": "OC000175",
+                                "display": "Keparahan batu saluran kemih"
+                            }
+                        ]
+                    },
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "55189008",
+                                "display": "Non-infected"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "performer": [
+                {
+                    "reference": "Practitioner/N10000001",
+                    "display": "dr. Bronsig"
+                },
+                {
+                    "reference": "Organization/10000002"
+                }
+            ]
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/a0ae133c-9469-4107-a5b2-1311a122ece1",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "a0ae133c-9469-4107-a5b2-1311a122ece1",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "N18.4",
+                            "display": "Chronic kidney disease, stage 4 (severe)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "recordedDate": "2024-04-24T03:58:00+00:00",
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/ced21ea3-f8a6-4b30-8d13-2586c4984315",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "ced21ea3-f8a6-4b30-8d13-2586c4984315",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "N20.0",
+                            "display": "Calculus of kidney"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "recordedDate": "2024-04-24T03:58:00+00:00",
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/2578abce-04d1-484a-9a67-73dbbfc79cac",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "2578abce-04d1-484a-9a67-73dbbfc79cac",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "I10",
+                            "display": "Essential (primary) hypertension"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "recordedDate": "2024-04-24T03:58:00+00:00",
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resourceType": "Procedure",
+            "id": "904c010f-8230-4a21-acf6-0948d3401d38",
+            "status": "completed",
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "277132007",
+                        "display": "Therapeutic procedure"
+                    }
+                ]
+            },
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                        "code": "39.95",
+                        "display": "Hemodialysis"
+                    }
+                ],
+                "text": "Terapi Hemodialisis"
+            },
+            "subject": {
+                "reference": "Patient/P00805884304",
+                "display": "Patient_Name"
+            },
+            "encounter": {
+                "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+            },
+            "performedPeriod": {
+                "start": "2024-04-24T04:00:00+00:00",
+                "end": "2024-04-24T06:00:00+00:00"
+            },
+            "performer": [
+                {
+                    "actor": {
+                        "reference": "Practitioner/N10000001",
+                        "display": "dr. Bronsig"
+                    }
+                }
+            ],
+            "reasonReference": [
+                {
+                    "reference": "Condition/a0ae133c-9469-4107-a5b2-1311a122ece1"
+                }
+            ],
+            "note": [
+                {
+                    "text": "Terapi CKD End Stage"
+                }
+            ]
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationRequest/b2d6c3e9-affb-49d8-849b-7de979d3c48b",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "b2d6c3e9-affb-49d8-849b-7de979d3c48b",
+                "status": "completed",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ]
+                    }
+                ],
+                "medicationCodeableConcept": {
+                    "text": "Captopril 25 mg Tablet"
+                },
+                "subject": {
+                    "display": "Patient_Name",
+                    "reference": "Patient/P00805884304"
+                },
+                "encounter": {
+                    "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+                },
+                "authoredOn": "2024-04-24T04:00:00+00:00",
+                "requester": {
+                    "display": "dr. Bronsig",
+                    "reference": "Practitioner/N10000001"
+                },
+                "priority": "routine",
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10",
+                                "code": "I10",
+                                "display": "Essential (primary) hypertension"
+                            }
+                        ]
+                    }
+                ],
+                "dosageInstruction": [
+                    {
+                        "text": "1 tablet (25 mg) diminum 2x sehari",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 2,
+                                "period": 1,
+                                "periodUnit": "d"
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://www.whocc.no/atc",
+                                    "code": "O",
+                                    "display": "Oral"
+                                }
+                            ]
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ]
+                                },
+                                "doseQuantity": {
+                                    "value": 25,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2024-04-24T04:00:00+00:00",
+                        "end": "2024-05-24T04:00:00+00:00"
+                    },
+                    "numberOfRepeatsAllowed": 0,
+                    "quantity": {
+                        "value": 30,
+                        "unit": "TAB",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                        "code": "TAB"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 30,
+                        "unit": "days",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    },
+                    "performer": {
+                        "reference": "Organization/10000002"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,2795 @@
+{
+    "resourceType": "Bundle",
+    "total": 64,
+    "type": "searchset",
+    "entry": [
+        {
+            "fullUrl": "Composition/comp-igd-20230604",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "comp-igd-20230604",
+                "identifier": {
+                    "system": "http://sys-ids.kemkes.go.id/composition/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                    "value": "P20240001"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "LP173421-1",
+                                "display": "Report"
+                            }
+                        ]
+                    }
+                ],
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "97663-9",
+                            "display": "Emergency medicine Emergency department Discharge summary"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "date": "2023-06-04T10:24:47+00:00",
+                "title": "Resume Medis Pasien IGD Claudia Sintia pada tanggal 4 Juni 2023",
+                "author": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "section": [
+                    {
+                        "title": "Asesmen Awal IGD",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "97667-0",
+                                    "display": "Emergency medicine Emergency department Initial evaluation note"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Observation/obs-triase-001"
+                            },
+                            {
+                                "reference": "Observation/obs-nyeri-001"
+                            },
+                            {
+                                "reference": "Observation/obs-morse-001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Skrining",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000129",
+                                    "display": "Skrining"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Observation/obs-decubitus-001"
+                            },
+                            {
+                                "reference": "QuestionnaireResponse/qr-batuk-001"
+                            },
+                            {
+                                "reference": "QuestionnaireResponse/qr-gizi-001"
+                            },
+                            {
+                                "reference": "Observation/obs-muntah-001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Anamnesis",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000003",
+                                    "display": "Anamnesis"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "title": "Keluhan Utama",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "10154-3",
+                                            "display": "Chief complaint Narrative - Reported"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/cond-keluhan-utama-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Keluhan Penyerta",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "11450-4",
+                                            "display": "Problem list - Reported"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/cond-keluhan-penyerta-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Riwayat Penyakit Pribadi Terdahulu",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "11348-0",
+                                            "display": "History of Past illness Narrative"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/cond-riwayat-terdahulu-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Riwayat Penyakit Pribadi Sekarang",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "10164-2",
+                                            "display": "History of Present illness Narrative"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/cond-riwayat-sekarang-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Riwayat Penyakit Keluarga",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "10157-6",
+                                            "display": "History of family member diseases Narrative"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "FamilyMemberHistory/fmh-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Riwayat Alergi",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "48765-2",
+                                            "display": "Allergies"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "AllergyIntolerance/allergy-lingkungan-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Riwayat Pengobatan",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "10160-0",
+                                            "display": "History of Medication use Narrative"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "MedicationStatement/medstmt-001"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pemeriksaan Fisik",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000007",
+                                    "display": "Pemeriksaan Fisik"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "title": "Tanda Vital",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "8716-3",
+                                            "display": "Vital signs"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Observation/obs-sistole-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-diastole-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-suhu-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-nadi-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-pernapasan-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-gcs-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-berat-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-tinggi-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-bsa-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Pemeriksaan Fisik Head to Toe",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "10187-3",
+                                            "display": "Review of systems Narrative - Reported"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Observation/obs-mata-001"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pemeriksaan Fungsional",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "47420-5",
+                                    "display": "Functional status assessment note"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Observation/obs-psikologis-001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Perencanaan Perawatan",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "18776-5",
+                                    "display": "Plan of care note"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "ClinicalImpression/clinimp-riwayat-001"
+                            },
+                            {
+                                "reference": "Goal/goal-001"
+                            },
+                            {
+                                "reference": "CarePlan/cp-rencana-001"
+                            },
+                            {
+                                "reference": "CarePlan/cp-instruksi-001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Pemeriksaan Penunjang",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000009",
+                                    "display": "Hasil Pemeriksaan Penunjang"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "title": "Hasil Pemeriksaan Laboratorium",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "11502-2",
+                                            "display": "Laboratory report"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "ServiceRequest/sr-lab-001"
+                                    },
+                                    {
+                                        "reference": "Procedure/proc-lab-001"
+                                    },
+                                    {
+                                        "reference": "Specimen/specimen-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-lab-hb-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-lab-wbc-001"
+                                    },
+                                    {
+                                        "reference": "DiagnosticReport/dr-lab-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Hasil Pemeriksaan Radiologi",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "18782-3",
+                                            "display": "Radiology Study observation (narrative)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "ServiceRequest/sr-rad-001"
+                                    },
+                                    {
+                                        "reference": "Procedure/proc-prarad-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-prarad-001"
+                                    },
+                                    {
+                                        "reference": "AllergyIntolerance/allergy-prarad-001"
+                                    },
+                                    {
+                                        "reference": "ImagingStudy/img-rad-001"
+                                    },
+                                    {
+                                        "reference": "Observation/obs-rad-001"
+                                    },
+                                    {
+                                        "reference": "DiagnosticReport/dr-rad-001"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Diagnosis",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000004",
+                                    "display": "Diagnosis"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "title": "Diagnosis Awal",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "42347-5",
+                                            "display": "Admission diagnosis (narrative)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/cond-dx-awal-001"
+                                    },
+                                    {
+                                        "reference": "Condition/cond-dx-kerja-001"
+                                    },
+                                    {
+                                        "reference": "Condition/cond-dx-banding-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Diagnosis Akhir",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "78375-3",
+                                            "display": "Discharge diagnosis Narrative"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "ClinicalImpression/clinimp-rasional-001"
+                                    },
+                                    {
+                                        "reference": "RiskAssessment/risk-001"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Tindakan/Prosedur Medis",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000005",
+                                    "display": "Tindakan/Prosedur Medis"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Procedure/proc-ekg-001"
+                            },
+                            {
+                                "reference": "Observation/obs-ekg-001"
+                            },
+                            {
+                                "reference": "Procedure/proc-cesar-001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Farmasi",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.kemkes.go.id",
+                                    "code": "TK000013",
+                                    "display": "Obat"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "title": "Obat Saat Kunjungan",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "42346-7",
+                                            "display": "Medications on admission (narrative)"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "MedicationRequest/medreq-visit-001"
+                                    },
+                                    {
+                                        "reference": "MedicationDispense/meddisp-visit-001"
+                                    },
+                                    {
+                                        "reference": "MedicationAdministration/medadmin-visit-001"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Obat Pulang",
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "75311-1",
+                                            "display": "Discharge medications Narrative"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "MedicationRequest/medreq-discharge-001"
+                                    },
+                                    {
+                                        "reference": "MedicationDispense/meddisp-discharge-001"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kondisi Saat Meninggalkan Rumah Sakit",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10184-0",
+                                    "display": "Hospital discharge physical findings Narrative"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/cond-kondisi-keluar-001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Rencana Tindak Lanjut",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8653-8",
+                                    "display": "Hospital Discharge instructions"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Observation/obs-pemulangan-001"
+                            },
+                            {
+                                "reference": "CarePlan/cp-pemulangan-001"
+                            },
+                            {
+                                "reference": "ServiceRequest/sr-rtl-001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Perjalanan Kunjungan Pasien",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8648-8",
+                                    "display": "Hospital course Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "additional",
+                            "div": "Pasien Claudia Sintia masuk IGD tanggal 4 Juni 2023 dengan keluhan perdarahan per vaginam dan nyeri bawah perut. Dilakukan triase, skrining, pemeriksaan fisik, laboratorium, dan USG. Pasien mendapat terapi simptomatik dan instruksi tindak lanjut."
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P03647103112",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "P03647103112",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik",
+                        "value": "3201010101010001"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Claudia Sintia"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1998-03-12"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Practitioner/10009880728",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "10009880728",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nakes-his-number",
+                        "value": "10009880728"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "dr. Alexander"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1994-01-01"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                "name": "RS Contoh Santosa",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/organization",
+                        "value": "10000001"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Encounter/enc-igd-20230604",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "enc-igd-20230604",
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "EMER",
+                    "display": "emergency"
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "period": {
+                    "start": "2023-06-04T09:45:00+00:00",
+                    "end": "2023-06-04T12:00:00+00:00"
+                },
+                "serviceProvider": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "reference": "Practitioner/10009880728"
+                        }
+                    }
+                ],
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "38670004",
+                                "display": "Vaginal bleeding"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-triase-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-triase-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "survey",
+                                "display": "Survey"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "89251-7",
+                            "display": "Emergency department triage acuity"
+                        }
+                    ],
+                    "text": "Triage acuity"
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "effectiveDateTime": "2023-06-04T09:50:00+00:00",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "25876001",
+                            "display": "Emergent"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-nyeri-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-nyeri-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "survey",
+                                "display": "Survey"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "72514-3",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "effectiveDateTime": "2023-06-04T09:52:00+00:00",
+                "valueQuantity": {
+                    "value": 6,
+                    "unit": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{score}"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-morse-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-morse-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "survey",
+                                "display": "Survey"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "89262-4",
+                            "display": "Morse fall risk score"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T09:53:00+00:00",
+                "valueQuantity": {
+                    "value": 15,
+                    "unit": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{score}"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-decubitus-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-decubitus-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "survey",
+                                "display": "Survey"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "62237-6",
+                            "display": "Braden scale total score"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T09:55:00+00:00",
+                "valueQuantity": {
+                    "value": 19,
+                    "unit": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{score}"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/QuestionnaireResponse/qr-batuk-001",
+            "resource": {
+                "resourceType": "QuestionnaireResponse",
+                "id": "qr-batuk-001",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "authored": "2023-06-04T09:56:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "item": [
+                    {
+                        "linkId": "1",
+                        "text": "Apakah pasien batuk?",
+                        "answer": [
+                            {
+                                "valueBoolean": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/QuestionnaireResponse/qr-gizi-001",
+            "resource": {
+                "resourceType": "QuestionnaireResponse",
+                "id": "qr-gizi-001",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "authored": "2023-06-04T09:57:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "item": [
+                    {
+                        "linkId": "1",
+                        "text": "Skrining gizi: risiko malnutrisi",
+                        "answer": [
+                            {
+                                "valueString": "Risiko rendah"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-muntah-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-muntah-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "exam",
+                                "display": "Exam"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "422400008",
+                            "display": "Vomiting (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T09:58:00+00:00",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "373066001",
+                            "display": "No"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-keluhan-utama-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-keluhan-utama-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "unconfirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "38670004",
+                            "display": "Vaginal bleeding"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "onsetDateTime": "2023-06-04T06:00:00+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-keluhan-penyerta-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-keluhan-penyerta-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "unconfirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "21522001",
+                            "display": "Lower abdominal pain"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-riwayat-terdahulu-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-riwayat-terdahulu-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "44054006",
+                            "display": "Diabetes mellitus type 2"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-riwayat-sekarang-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-riwayat-sekarang-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "unconfirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "77386006",
+                            "display": "Pregnant"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/FamilyMemberHistory/fmh-001",
+            "resource": {
+                "resourceType": "FamilyMemberHistory",
+                "id": "fmh-001",
+                "status": "completed",
+                "patient": {
+                    "reference": "Patient/P03647103112"
+                },
+                "relationship": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                            "code": "MTH",
+                            "display": "mother"
+                        }
+                    ]
+                },
+                "condition": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "44054006",
+                                    "display": "Diabetes mellitus type 2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/AllergyIntolerance/allergy-lingkungan-001",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "allergy-lingkungan-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "type": "allergy",
+                "category": [
+                    "environment"
+                ],
+                "criticality": "low",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "419199007",
+                            "display": "Allergy to house dust mite"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/P03647103112"
+                },
+                "recordedDate": "2023-06-04T10:00:00+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationStatement/medstmt-001",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "medstmt-001",
+                "status": "active",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://sys-ids.kemkes.go.id/kfa",
+                            "code": "93000123",
+                            "display": "Metformin 500 mg tablet"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-05-20T00:00:00+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-sistole-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-sistole-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8480-6",
+                            "display": "Systolic blood pressure"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "effectiveDateTime": "2023-06-04T10:05:00+00:00",
+                "valueQuantity": {
+                    "value": 120,
+                    "unit": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm[Hg]"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-diastole-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-diastole-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8462-4",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "effectiveDateTime": "2023-06-04T10:05:00+00:00",
+                "valueQuantity": {
+                    "value": 78,
+                    "unit": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mm[Hg]"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-suhu-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-suhu-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8310-5",
+                            "display": "Body temperature"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:05:00+00:00",
+                "valueQuantity": {
+                    "value": 36.9,
+                    "unit": "Cel",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "Cel"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-nadi-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-nadi-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8867-4",
+                            "display": "Heart rate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:05:00+00:00",
+                "valueQuantity": {
+                    "value": 92,
+                    "unit": "/min",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "/min"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-pernapasan-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-pernapasan-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "9279-1",
+                            "display": "Respiratory rate"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:05:00+00:00",
+                "valueQuantity": {
+                    "value": 18,
+                    "unit": "/min",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "/min"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-gcs-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-gcs-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "exam",
+                                "display": "Exam"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "9269-2",
+                            "display": "Glasgow coma score total"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:06:00+00:00",
+                "valueQuantity": {
+                    "value": 15,
+                    "unit": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{score}"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-berat-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-berat-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "29463-7",
+                            "display": "Body weight"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:06:00+00:00",
+                "valueQuantity": {
+                    "value": 62,
+                    "unit": "kg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "kg"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-tinggi-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-tinggi-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8302-2",
+                            "display": "Body height"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:06:00+00:00",
+                "valueQuantity": {
+                    "value": 162,
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-bsa-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-bsa-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8277-6",
+                            "display": "Body surface area"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:06:00+00:00",
+                "valueQuantity": {
+                    "value": 1.67,
+                    "unit": "m2",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "m2"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-mata-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-mata-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "exam",
+                                "display": "Exam"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "32451-7",
+                            "display": "Eye physical exam Narrative"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:07:00+00:00",
+                "valueString": "Konjungtiva anemis ringan, sklera ikterik (-)."
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-psikologis-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-psikologis-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "survey",
+                                "display": "Survey"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "106048009",
+                            "display": "Mental state"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:08:00+00:00",
+                "valueString": "Cemas ringan, kooperatif."
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ClinicalImpression/clinimp-riwayat-001",
+            "resource": {
+                "resourceType": "ClinicalImpression",
+                "id": "clinimp-riwayat-001",
+                "status": "completed",
+                "description": "Riwayat perjalanan penyakit selama kunjungan IGD.",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "date": "2023-06-04T11:30:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "finding": [
+                    {
+                        "itemReference": {
+                            "reference": "Condition/cond-keluhan-utama-001"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Goal/goal-001",
+            "resource": {
+                "resourceType": "Goal",
+                "id": "goal-001",
+                "lifecycleStatus": "active",
+                "description": {
+                    "text": "Stabilisasi perdarahan dan kontrol nyeri"
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "target": [
+                    {
+                        "measure": {
+                            "text": "Nyeri <= 3/10"
+                        },
+                        "dueDate": "2023-06-05"
+                    }
+                ],
+                "startDate": "2023-06-04"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/CarePlan/cp-rencana-001",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "cp-rencana-001",
+                "status": "active",
+                "intent": "plan",
+                "title": "Rencana Perawatan IGD",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "period": {
+                    "start": "2023-06-04"
+                },
+                "goal": [
+                    {
+                        "reference": "Goal/goal-001"
+                    }
+                ],
+                "activity": [
+                    {
+                        "detail": {
+                            "kind": "ServiceRequest",
+                            "code": {
+                                "text": "Observasi tanda vital tiap 30 menit"
+                            },
+                            "status": "in-progress"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/CarePlan/cp-instruksi-001",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "cp-instruksi-001",
+                "status": "active",
+                "intent": "order",
+                "title": "Instruksi Medik IGD",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "period": {
+                    "start": "2023-06-04"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "kind": "MedicationRequest",
+                            "code": {
+                                "text": "Pemberian traneksamat IV jika perdarahan bertambah"
+                            },
+                            "status": "in-progress"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ServiceRequest/sr-lab-001",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "sr-lab-001",
+                "status": "active",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24360-0",
+                            "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "authoredOn": "2023-06-04T10:10:00+00:00",
+                "requester": {
+                    "reference": "Practitioner/10009880728"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/proc-lab-001",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "proc-lab-001",
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "22778000",
+                            "display": "Venipuncture for blood test"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "performedDateTime": "2023-06-04T10:12:00+00:00",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/sr-lab-001"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Specimen/specimen-001",
+            "resource": {
+                "resourceType": "Specimen",
+                "id": "specimen-001",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "122555007",
+                            "display": "Venous blood specimen"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "receivedTime": "2023-06-04T10:20:00+00:00",
+                "collection": {
+                    "collectedDateTime": "2023-06-04T10:12:00+00:00"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-lab-hb-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-lab-hb-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "718-7",
+                            "display": "Hemoglobin [Mass/volume] in Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:35:00+00:00",
+                "specimen": {
+                    "reference": "Specimen/specimen-001"
+                },
+                "valueQuantity": {
+                    "value": 10.2,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "g/dL"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-lab-wbc-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-lab-wbc-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "6690-2",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:35:00+00:00",
+                "specimen": {
+                    "reference": "Specimen/specimen-001"
+                },
+                "valueQuantity": {
+                    "value": 8.9,
+                    "unit": "10^3/uL",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "10*3/uL"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/DiagnosticReport/dr-lab-001",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "dr-lab-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "11502-2",
+                            "display": "Laboratory report"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:35:00+00:00",
+                "issued": "2023-06-04T10:40:00+00:00",
+                "specimen": [
+                    {
+                        "reference": "Specimen/specimen-001"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/obs-lab-hb-001"
+                    },
+                    {
+                        "reference": "Observation/obs-lab-wbc-001"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/sr-lab-001"
+                    }
+                ],
+                "conclusion": "Hb rendah ringan. Leukosit normal."
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ServiceRequest/sr-rad-001",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "sr-rad-001",
+                "status": "active",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "241618002",
+                            "display": "Ultrasound of pelvis"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "authoredOn": "2023-06-04T10:15:00+00:00",
+                "requester": {
+                    "reference": "Practitioner/10009880728"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/proc-prarad-001",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "proc-prarad-001",
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "387713003",
+                            "display": "Insertion of intravenous cannula"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "performedDateTime": "2023-06-04T10:16:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-prarad-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-prarad-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "21112-8",
+                            "display": "Pregnancy test [Presence] in Urine"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:18:00+00:00",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "260385009",
+                            "display": "Negative"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/AllergyIntolerance/allergy-prarad-001",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "allergy-prarad-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "type": "allergy",
+                "category": [
+                    "medication"
+                ],
+                "criticality": "high",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "294505008",
+                            "display": "Allergy to diagnostic agent"
+                        }
+                    ],
+                    "text": "Allergy to iodine-based contrast"
+                },
+                "patient": {
+                    "reference": "Patient/P03647103112"
+                },
+                "recordedDate": "2023-06-04T10:19:00+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ImagingStudy/img-rad-001",
+            "resource": {
+                "resourceType": "ImagingStudy",
+                "id": "img-rad-001",
+                "status": "available",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "started": "2023-06-04T10:45:00+00:00",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/sr-rad-001"
+                    }
+                ],
+                "numberOfSeries": 1,
+                "series": [
+                    {
+                        "uid": "1.2.840.113619.2.55.3.604688.20230604.104500.1",
+                        "number": 1,
+                        "modality": {
+                            "system": "http://dicom.nema.org/resources/ontology/DCM",
+                            "code": "US",
+                            "display": "Ultrasound"
+                        },
+                        "numberOfInstances": 1,
+                        "instance": [
+                            {
+                                "uid": "1.2.840.113619.2.55.3.604688.20230604.104500.1.1",
+                                "sopClass": {
+                                    "system": "urn:ietf:rfc:3986",
+                                    "code": "urn:oid:1.2.840.10008.5.1.4.1.1.6.1",
+                                    "display": "Ultrasound Image Storage"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-rad-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-rad-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "imaging",
+                                "display": "Imaging"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "59776-5",
+                            "display": "US Pelvis Narrative"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:50:00+00:00",
+                "valueString": "USG pelvis: uterus normal, tidak tampak kantung gestasi, tidak tampak massa adneksa, cairan bebas (-).",
+                "derivedFrom": [
+                    {
+                        "reference": "ImagingStudy/img-rad-001"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/DiagnosticReport/dr-rad-001",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "id": "dr-rad-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "RAD",
+                                "display": "Radiology"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "18782-3",
+                            "display": "Radiology Study observation (narrative)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:50:00+00:00",
+                "issued": "2023-06-04T10:55:00+00:00",
+                "study": [
+                    {
+                        "reference": "ImagingStudy/img-rad-001"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/obs-rad-001"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/sr-rad-001"
+                    }
+                ],
+                "conclusion": "USG pelvis dalam batas normal, tidak ada tanda kehamilan intrauterin/ektopik."
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-dx-awal-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-dx-awal-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "provisional"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10",
+                            "code": "O20.9",
+                            "display": "Hemorrhage in early pregnancy, unspecified"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-dx-kerja-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-dx-kerja-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "provisional"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "19112008",
+                            "display": "Threatened abortion"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-dx-banding-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-dx-banding-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "inactive"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "differential"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "17369002",
+                            "display": "Ectopic pregnancy"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ClinicalImpression/clinimp-rasional-001",
+            "resource": {
+                "resourceType": "ClinicalImpression",
+                "id": "clinimp-rasional-001",
+                "status": "completed",
+                "description": "Rasional klinis diagnosis akhir: perdarahan awal kehamilan dengan USG normal, tes kehamilan urine negatif.",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "date": "2023-06-04T11:45:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                },
+                "finding": [
+                    {
+                        "itemReference": {
+                            "reference": "Observation/obs-rad-001"
+                        }
+                    },
+                    {
+                        "itemReference": {
+                            "reference": "Observation/obs-prarad-001"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/RiskAssessment/risk-001",
+            "resource": {
+                "resourceType": "RiskAssessment",
+                "id": "risk-001",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "occurrenceDateTime": "2023-06-04T11:50:00+00:00",
+                "basis": [
+                    {
+                        "reference": "ClinicalImpression/clinimp-rasional-001"
+                    }
+                ],
+                "prediction": [
+                    {
+                        "outcome": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "199225007",
+                                    "display": "Vaginal bleeding affecting early pregnancy"
+                                }
+                            ]
+                        },
+                        "probabilityDecimal": 0.2,
+                        "rationale": "Stabil, USG normal, pemantauan lanjut."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/proc-ekg-001",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "proc-ekg-001",
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "185349003",
+                            "display": "Electrocardiographic procedure"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "performedDateTime": "2023-06-04T10:25:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-ekg-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-ekg-001",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "procedure",
+                                "display": "Procedure"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "11524-6",
+                            "display": "ECG Impression"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:26:00+00:00",
+                "valueString": "Irama sinus, tidak ada elevasi ST."
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/proc-cesar-001",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "proc-cesar-001",
+                "status": "not-done",
+                "statusReason": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+                            "code": "not-indicated",
+                            "display": "Not indicated"
+                        }
+                    ],
+                    "text": "Tidak diindikasikan di IGD"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "code": "74.1",
+                            "display": "Cesarean section"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationRequest/medreq-visit-001",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "medreq-visit-001",
+                "status": "active",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://sys-ids.kemkes.go.id/kfa",
+                            "code": "93001001",
+                            "display": "Tranexamic acid 500 mg injection"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "authoredOn": "2023-06-04T10:22:00+00:00",
+                "requester": {
+                    "reference": "Practitioner/10009880728"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "500 mg IV bolus"
+                    }
+                ],
+                "encounter": {
+                    "reference": "Encounter/enc-igd-20230604"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1//meddisp-visit-001",
+            "resource": {
+                "resourceType": "MedicationDispense",
+                "id": "meddisp-visit-001",
+                "status": "completed",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://sys-ids.kemkes.go.id/kfa",
+                            "code": "93001001",
+                            "display": "Tranexamic acid 500 mg injection"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "whenHandedOver": "2023-06-04T10:23:00+00:00",
+                "quantity": {
+                    "value": 1,
+                    "unit": "vial",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{vial}"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationAdministration/medadmin-visit-001",
+            "resource": {
+                "resourceType": "MedicationAdministration",
+                "id": "medadmin-visit-001",
+                "status": "completed",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://sys-ids.kemkes.go.id/kfa",
+                            "code": "93001001",
+                            "display": "Tranexamic acid 500 mg injection"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T10:24:00+00:00",
+                "dosage": {
+                    "text": "500 mg IV bolus"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationRequest/medreq-discharge-001",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "medreq-discharge-001",
+                "status": "completed",
+                "intent": "order",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://sys-ids.kemkes.go.id/kfa",
+                            "code": "93000666",
+                            "display": "Paracetamol 500 mg tablet"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "authoredOn": "2023-06-04T11:55:00+00:00",
+                "dosageInstruction": [
+                    {
+                        "text": "1 tablet oral setiap 8 jam bila nyeri"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1//meddisp-discharge-001",
+            "resource": {
+                "resourceType": "MedicationDispense",
+                "id": "meddisp-discharge-001",
+                "status": "completed",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://sys-ids.kemkes.go.id/kfa",
+                            "code": "93000666",
+                            "display": "Paracetamol 500 mg tablet"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "whenHandedOver": "2023-06-04T11:56:00+00:00",
+                "quantity": {
+                    "value": 10,
+                    "unit": "tablet",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{tbl}"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-kondisi-keluar-001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "cond-kondisi-keluar-001",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "inactive"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "723511001",
+                            "display": "Patient condition stable"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "recordedDate": "2023-06-04T12:00:00+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-pemulangan-001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "obs-pemulangan-001",
+                "status": "final",
+                "code": {
+                    "text": "Instruksi pemulangan"
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "effectiveDateTime": "2023-06-04T12:00:00+00:00",
+                "valueString": "Istirahat, hindari aktivitas berat, kontrol 3 hari atau segera bila perdarahan bertambah."
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/CarePlan/cp-pemulangan-001",
+            "resource": {
+                "resourceType": "CarePlan",
+                "id": "cp-pemulangan-001",
+                "status": "active",
+                "intent": "plan",
+                "title": "Rencana Tindak Lanjut Pasca IGD",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "period": {
+                    "start": "2023-06-04",
+                    "end": "2023-06-11"
+                },
+                "activity": [
+                    {
+                        "detail": {
+                            "kind": "Appointment",
+                            "code": {
+                                "text": "Kontrol poli obgyn 3 hari"
+                            },
+                            "scheduledPeriod": {
+                                "start": "2023-06-07"
+                            },
+                            "status": "scheduled"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ServiceRequest/sr-rtl-001",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "id": "sr-rtl-001",
+                "status": "active",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "308335008",
+                            "display": "Follow-up appointment"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "authoredOn": "2023-06-04T12:00:00+00:00",
+                "occurrenceDateTime": "2023-06-07T08:00:00+00:00"
+            }
+        }
+    ]
+}

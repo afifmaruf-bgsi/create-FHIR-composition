@@ -1,0 +1,548 @@
+{
+  "resourceType": "Bundle", 
+  "type": "searchset",
+  "total": 26,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=rj-1860f97b-d8bf-4604-9872-0a39785fb111&_include=%2A&subject=P03647103112"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P03647103112",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "P03647103112", 
+        "identifier": [
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "value": "P03647103112"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "Claudia Sintia"
+          }
+        ],
+        "gender": "female"
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-keluhan-utama",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-keluhan-utama",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "162467007",
+              "display": "Chief complaint"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "effectiveDateTime": "2023-03-01T09:05:00+07:00",
+        "valueString": "Pusing mendadak, baal sisi kanan, berlangsung 1 jam sebelum kunjungan." 
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-td-sistol",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-td-sistol",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [
+            {
+              "system": "http://loinc.org", 
+              "code": "8480-6", 
+              "display": "Systolic blood pressure" 
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "effectiveDateTime": "2023-03-01T09:10:00+07:00",
+        "performer": [
+          {
+            "reference": "Practitioner/10009880728"
+          }
+        ],
+        "valueQuantity": {
+          "value": 138, 
+          "unit": "mm[Hg]", 
+          "system": "http://unitsofmeasure.org", 
+          "code": "mm[Hg]" 
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-td-diast",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-td-diast",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "effectiveDateTime": "2023-03-01T09:10:00+07:00",
+        "performer": [
+          {
+            "reference": "Practitioner/10009880728"
+          }
+        ],
+        "valueQuantity": { 
+          "value": 88,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-nadi",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-nadi",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [ 
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "effectiveDateTime": "2023-03-01T09:10:00+07:00",
+        "performer": [
+          {
+            "reference": "Practitioner/10009880728"
+          }
+        ],
+        "valueQuantity": { 
+          "value": 84,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-suhu",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-suhu",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "effectiveDateTime": "2023-03-01T09:10:00+07:00",
+        "performer": [
+          {
+            "reference": "Practitioner/10009880728"
+          }
+        ],
+        "valueQuantity": { 
+          "value": 36.8,
+          "unit": "°C",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-bb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-bb",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "effectiveDateTime": "2023-03-01T09:10:00+07:00",
+        "performer": [
+          {
+            "reference": "Practitioner/10009880728"
+          }
+        ],
+        "valueQuantity": {
+          "value": 74,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/obs-tb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-tb",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "effectiveDateTime": "2023-03-01T09:10:00+07:00",
+        "performer": [
+          {
+            "reference": "Practitioner/10009880728"
+          }
+        ],
+        "valueQuantity": {
+          "value": 165,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-problem",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-problem",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [
+            {
+              "system": "http://snomed.info/sct", 
+              "code": "20022000",
+              "display": "Weakness of one side of body"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "onsetDateTime": "2023-03-01T08:45:00+07:00",
+        "recordedDate": "2023-03-01T09:10:00+07:00"
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/cond-final",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-final",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": { 
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I63.5",
+              "display": "Cerebral infarction due unspecified occlusion or stenos cerebrl arteries"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "encounter": {
+          "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+        },
+        "onsetDateTime": "2023-03-01T08:45:00+07:00"
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/proc-edukasi",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-edukasi",
+        "status": "completed",
+        "code": {
+          "coding": [ 
+            {
+              "system": "http://loinc.org",
+              "code": "34895-3",
+              "display": "Education note" 
+            }
+          ],
+          "text": "Edukasi pasien & keluarga"
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        },
+        "performedDateTime": "2023-03-01T09:20:00+07:00", 
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/10009880728"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Medication/med-clopidogrel",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "med-clopidogrel",
+        "status": "active",
+        "code": { 
+          "coding": [
+            {
+              "system": "http://sys-ids.kemkes.go.id/kfa", 
+              "code": "93000624",
+              "display": "Clopidogrel Bisulfate 75 mg Tablet Salut Selaput (PLADOGREL)" 
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://terminology.kemkes.go.id/CodeSystem/medication-form",
+              "code": "BS077",
+              "display": "Tablet Salut Selaput"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationType",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.kemkes.go.id/CodeSystem/medication-type",
+                  "code": "NC",
+                  "display": "Non-compound"
+                }
+              ]
+            }
+          }
+        ],
+        "ingredient": [
+          {
+            "isActive": true,
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://sys-ids.kemkes.go.id/kfa",
+                  "code": "91000403",
+                  "display": "CLOPIDOGREL"
+                }
+              ]
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                "code": "TAB",
+                "unit": "Tablet"
+              }
+            }
+          }
+        ],
+        "manufacturer": {
+          "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationDispense/meddisp-visit",
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "meddisp-visit",
+        "status": "completed",
+        "medicationReference": {
+          "reference": "Medication/med-clopidogrel"
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationDispense/meddisp-discharge",
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "meddisp-discharge",
+        "status": "completed",
+        "medicationReference": {
+          "reference": "Medication/med-clopidogrel"
+        },
+        "subject": {
+          "reference": "Patient/P03647103112"
+        }
+      }
+    }
+  ]
+}

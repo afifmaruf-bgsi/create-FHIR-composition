@@ -1,0 +1,2159 @@
+{
+    "entry": [
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/d68ad2ce-81ed-49f6-a89a-0bbafa7caf41",
+            "resource": {
+                "author": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "LP173421-1",
+                                "display": "Report",
+                                "system": "http://loinc.org"
+                            }
+                        ]
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "date": "2024-06-04T10:24:47+00:00",
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "d68ad2ce-81ed-49f6-a89a-0bbafa7caf41",
+                "identifier": {
+                    "system": "http://sys-ids.kemkes.go.id/creator",
+                    "value": "6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "meta": {
+                    "lastUpdated": "2025-08-07T03:19:14.186051+00:00",
+                    "versionId": "MTc1NDUzNjc1NDE4NjA1MTAwMA"
+                },
+                "resourceType": "Composition",
+                "section": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000002",
+                                    "display": "Episode Perawatan",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/1a08a280-b968-46e9-bf48-beae115c9ad4"
+                            }
+                        ],
+                        "title": "Episode Perawatan"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000003",
+                                    "display": "Anamnesis",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "10154-3",
+                                            "display": "Chief complaint Narrative - Reported",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/1a08a280-b968-46e9-bf48-beae115c9ad4"
+                                    }
+                                ],
+                                "title": "Keluhan Utama"
+                            },
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "11450-4",
+                                            "display": "Problem list - Reported",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/3b82b38f-20a9-4253-a7a7-0673fe71d56a"
+                                    }
+                                ],
+                                "title": "Keluhan Penyerta"
+                            },
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "10164-2",
+                                            "display": "History of Present illness Narrative",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Condition/a3e52e62-10b9-4d54-8b2b-fd6585737972"
+                                    }
+                                ],
+                                "title": "Riwayat Penyakit Pribadi Sekarang"
+                            },
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "10157-6",
+                                            "display": "History of family member diseases Narrative",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "FamilyMemberHistory/8c34881b-d9ca-4c98-b6ef-e8d217432550"
+                                    }
+                                ],
+                                "title": "Riwayat Penyakit Keluarga"
+                            },
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "48765-2",
+                                            "display": "Allergies",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "AllergyIntolerance/d4e02558-ef08-4698-bf38-ba048d1251ac"
+                                    }
+                                ],
+                                "title": "Riwayat Alergi"
+                            },
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "10160-0",
+                                            "display": "History of Medication use Narrative",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "MedicationStatement/146274c3-e35f-44ac-a3a9-7c31aaad8746"
+                                    }
+                                ],
+                                "title": "Riwayat Pengobatan"
+                            }
+                        ],
+                        "title": "Anamnesis"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000007",
+                                    "display": "Pemeriksaan Fisik",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "8716-3",
+                                            "display": "Vital signs",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Observation/7832ec54-9064-44f2-8719-d1cb531c849f"
+                                    },
+                                    {
+                                        "reference": "Observation/707b2bf0-3971-4497-93fa-00e89381fbe5"
+                                    },
+                                    {
+                                        "reference": "Observation/0e70d87b-8e78-4cc0-99bf-48cc8caa01f4"
+                                    },
+                                    {
+                                        "reference": "Observation/231f1eb5-f9a5-4cbe-bb58-6295f990b0f9"
+                                    },
+                                    {
+                                        "reference": "Observation/1bdc8c93-e2d7-4e58-ba04-b0b8e32adb7c"
+                                    },
+                                    {
+                                        "reference": "Observation/dc774b86-a49f-49f0-a55f-125f5c603ede"
+                                    }
+                                ],
+                                "title": "Tanda Vital"
+                            }
+                        ],
+                        "title": "Pemeriksaan Fisik"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000009",
+                                    "display": "Hasil Pemeriksaan Penunjang",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "11502-2",
+                                            "display": "Laboratory report",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "Procedure/a5c0a8b2-e32e-43e5-bdaf-ac34de8f11dc"
+                                    },
+                                    {
+                                        "reference": "Specimen/951074fd-27a1-4444-9454-beeb4557bf88"
+                                    },
+                                    {
+                                        "reference": "Observation/645a7cf0-03e2-43e3-8be0-c9f1f1ad584f"
+                                    },
+                                    {
+                                        "reference": "DiagnosticReport/85a2f6d0-5c81-4c7b-b432-5ff962ec43fb"
+                                    }
+                                ],
+                                "title": "Hasil Pemeriksaan Laboratorium"
+                            }
+                        ],
+                        "title": "Pemeriksaan Penunjang"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000004",
+                                    "display": "Diagnosis",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "78375-3",
+                                            "display": "Discharge diagnosis Narrative",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "ClinicalImpression/e5412363-b8f7-42db-9f45-5de4ee7f7936"
+                                    },
+                                    {
+                                        "reference": "Condition/1a08a280-b968-46e9-bf48-beae115c9ad4"
+                                    },
+                                    {
+                                        "reference": "Condition/3b82b38f-20a9-4253-a7a7-0673fe71d56a"
+                                    }
+                                ],
+                                "title": "Diagnosis Akhir"
+                            }
+                        ],
+                        "title": "Diagnosis"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000005",
+                                    "display": "Tindakan/Prosedur Medis",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Procedure/a5c0a8b2-e32e-43e5-bdaf-ac34de8f11dc"
+                            },
+                            {
+                                "reference": "Observation/8af8ae78-5526-4654-89ff-ec9dfcd24041"
+                            }
+                        ],
+                        "title": "Tindakan/Prosedur Medis"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000013",
+                                    "display": "Obat",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "section": [
+                            {
+                                "code": {
+                                    "coding": [
+                                        {
+                                            "code": "75311-1",
+                                            "display": "Discharge medications Narrative",
+                                            "system": "http://loinc.org"
+                                        }
+                                    ]
+                                },
+                                "entry": [
+                                    {
+                                        "reference": "MedicationRequest/7fc550c9-7211-4752-aa36-35e405f73609"
+                                    },
+                                    {
+                                        "reference": "MedicationDispense/6b7d5850-b14a-4c77-80ae-31ed38e3206e"
+                                    }
+                                ],
+                                "title": "Obat Pulang"
+                            }
+                        ],
+                        "title": "Obat"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "10184-0",
+                                    "display": "Hospital discharge physical findings Narrative",
+                                    "system": "http://loinc.org"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/240a0374-8690-43cb-927d-08d5a063e394"
+                            }
+                        ],
+                        "title": "Kondisi Saat Meninggalkan Rumah Sakit"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "8653-8",
+                                    "display": "Hospital Discharge instructions",
+                                    "system": "http://loinc.org"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "reference": "ServiceRequest/9ecbf409-9234-4dea-852e-4de22ed93ca9"
+                            }
+                        ],
+                        "title": "Rencana Tindak Lanjut"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "8648-8",
+                                    "display": "Hospital course Narrative",
+                                    "system": "http://loinc.org"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "div": "Pasien Claudia Sintia tidak baik baik saja.",
+                            "status": "additional"
+                        },
+                        "title": "Perjalanan Kunjungan Pasien"
+                    }
+                ],
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "title": "Data Registrasi Jantung",
+                "type": {
+                    "coding": [
+                        {
+                            "code": "TK000001",
+                            "display": "Data Registrasi Jantung",
+                            "system": "http://terminology.kemkes.go.id"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "OperationOutcome",
+                "issue": [
+                    {
+                        "severity": "information",
+                        "code": "suppressed",
+                        "details": {
+                            "text": "The operation did not return any information due to consent or privacy rules."
+                        },
+                        "diagnostics": "Missing query parameters: 1) Combination of NIK + name + birthdate, or 2) Combination of gender + name + birthdate, 3) NIK, or 4) NIK Ibu"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e",
+            "resource": {
+                "class": {
+                    "code": "AMB",
+                    "display": "Ambulatory",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                },
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "display": "Essential (primary) hypertension",
+                            "reference": "Condition/1a08a280-b968-46e9-bf48-beae115c9ad4"
+                        },
+                        "rank": 1,
+                        "use": {
+                            "coding": [
+                                {
+                                    "code": "DD",
+                                    "display": "Discharge diagnosis",
+                                    "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": {
+                            "display": "Chronic ischaemic heart disease, unspecified",
+                            "reference": "Condition/3b82b38f-20a9-4253-a7a7-0673fe71d56a"
+                        },
+                        "rank": 2,
+                        "use": {
+                            "coding": [
+                                {
+                                    "code": "DD",
+                                    "display": "Discharge diagnosis",
+                                    "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/533de92c-8d1f-4b77-98a2-748a0189b6a6"
+                    }
+                ],
+                "hospitalization": {
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "code": "home",
+                                "display": "Home",
+                                "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition"
+                            }
+                        ],
+                        "text": "Anjuran dokter untuk pulang dan kontrol kembali"
+                    }
+                },
+                "id": "654e2d68-d24e-4ab4-b51e-9eb9bd85192e",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/encounter/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "value": "2024041692295"
+                    }
+                ],
+                "location": [
+                    {
+                        "extension": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "value",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "reguler",
+                                                    "display": "Kelas Reguler",
+                                                    "system": "http://terminology.kemkes.go.id/CodeSystem/locationServiceClass-Outpatient"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "url": "upgradeClassIndicator",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "kelas-tetap",
+                                                    "display": "Kelas Tetap Perawatan",
+                                                    "system": "http://terminology.kemkes.go.id/CodeSystem/locationUpgradeClass"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceClass"
+                            }
+                        ],
+                        "location": {
+                            "display": "Poli Umum",
+                            "reference": "Location/a482e8d2-870e-45f2-a067-cccf633f0cde"
+                        },
+                        "period": {
+                            "end": "2024-03-14T03:16:00+00:00",
+                            "start": "2024-03-14T02:00:00+00:00"
+                        }
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-07T02:04:22.654018+00:00",
+                    "versionId": "MTc1NDUzMjI2MjY1NDAxODAwMA"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "display": "Dr. Alexander",
+                            "reference": "Practitioner/10009880728"
+                        },
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "code": "ATND",
+                                        "display": "attender",
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "period": {
+                    "end": "2024-03-14T03:16:00+00:00",
+                    "start": "2024-03-14T02:00:00+00:00"
+                },
+                "resourceType": "Encounter",
+                "serviceProvider": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "status": "finished",
+                "statusHistory": [
+                    {
+                        "period": {
+                            "end": "2024-03-14T02:15:00+00:00",
+                            "start": "2024-03-14T02:00:00+00:00"
+                        },
+                        "status": "arrived"
+                    },
+                    {
+                        "period": {
+                            "end": "2024-03-14T03:16:00+00:00",
+                            "start": "2024-03-14T02:15:00+00:00"
+                        },
+                        "status": "in-progress"
+                    },
+                    {
+                        "period": {
+                            "end": "2024-03-14T03:16:00+00:00",
+                            "start": "2024-03-14T03:16:00+00:00"
+                        },
+                        "status": "finished"
+                    }
+                ],
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Practitioner/10009880728",
+            "resource": {
+                "address": [
+                    {
+                        "city": "Kab. Garut",
+                        "country": "ID",
+                        "extension": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "province",
+                                        "valueCode": "32"
+                                    },
+                                    {
+                                        "url": "city",
+                                        "valueCode": "3205"
+                                    },
+                                    {
+                                        "url": "district",
+                                        "valueCode": "320519"
+                                    },
+                                    {
+                                        "url": "village",
+                                        "valueCode": "3205192003"
+                                    },
+                                    {
+                                        "url": "rw",
+                                        "valueCode": "1"
+                                    },
+                                    {
+                                        "url": "rt",
+                                        "valueCode": "12"
+                                    }
+                                ],
+                                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+                            }
+                        ],
+                        "line": [
+                            "Komplek Kesehatan"
+                        ],
+                        "use": "home"
+                    }
+                ],
+                "birthDate": "1994-01-01",
+                "gender": "male",
+                "id": "10009880728",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nakes-his-number",
+                        "value": "10009880728"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik",
+                        "use": "official",
+                        "value": "7209061211900001"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-11-05T09:09:10.336694+00:00",
+                    "versionId": "MTczMDc5Nzc1MDMzNjY5NDAwMA"
+                },
+                "name": [
+                    {
+                        "text": "dr. Alexander",
+                        "use": "official"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "STR-KKI",
+                                    "display": "Surat Tanda Registrasi Dokter",
+                                    "system": "https://terminology.kemkes.go.id/v1-0302"
+                                }
+                            ]
+                        },
+                        "identifier": [
+                            {
+                                "system": "https://fhir.kemkes.go.id/id/str-kki-number",
+                                "value": "1234567887654321"
+                            }
+                        ]
+                    }
+                ],
+                "resourceType": "Practitioner"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/240a0374-8690-43cb-927d-08d5a063e394",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "problem-list-item",
+                                "display": "Problem List Item",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                            }
+                        ]
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "code": "active",
+                            "display": "Active",
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "359746009",
+                            "display": "Patient's condition stable",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "240a0374-8690-43cb-927d-08d5a063e394",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-07T02:00:42.004137+00:00",
+                    "versionId": "MTc1NDUzMjA0MjAwNDEzNzAwMA"
+                },
+                "recordedDate": "2024-03-14T03:16:00+00:00",
+                "resourceType": "Condition",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/1a08a280-b968-46e9-bf48-beae115c9ad4",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "problem-list-item",
+                                "display": "Problem List Item",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                            }
+                        ]
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "code": "active",
+                            "display": "Active",
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "80313002",
+                            "display": "Palpitations",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "1a08a280-b968-46e9-bf48-beae115c9ad4",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:44:43.968421+00:00",
+                    "versionId": "MTc1NDQ2OTg4Mzk2ODQyMTAwMA"
+                },
+                "onsetDateTime": "2024-03-14T01:10:00+00:00",
+                "recordedDate": "2024-03-14T02:16:00+00:00",
+                "resourceType": "Condition",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/8af8ae78-5526-4654-89ff-ec9dfcd24041",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "34534-8",
+                            "display": "12 lead EKG panel",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "426783006",
+                                    "display": "Electrocardiogram: sinus rhythm",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": false
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "164889003",
+                                    "display": "Electrocardiographic atrial fibrillation",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "76388001",
+                                    "display": "ST segment elevation",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "26141007",
+                                    "display": "ST segment depression",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "59931005",
+                                    "display": "Inverted T wave",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    }
+                ],
+                "effectiveDateTime": "2024-03-14T02:50:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "8af8ae78-5526-4654-89ff-ec9dfcd24041",
+                "identifier": [],
+                "issued": "2024-03-14T03:05:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:53:55.179584+00:00",
+                    "versionId": "MTc1NDQ3MDQzNTE3OTU4NDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueString": "Hasil pemeriksaan EKG menunjukkan adanya gangguan pada jantung"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/a5c0a8b2-e32e-43e5-bdaf-ac34de8f11dc",
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "103693007",
+                            "display": "Diagnostic procedure",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Prosedur Diagnostik"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "89.52",
+                            "display": "Electrocardiogram",
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "a5c0a8b2-e32e-43e5-bdaf-ac34de8f11dc",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:53:33.862921+00:00",
+                    "versionId": "MTc1NDQ3MDQxMzg2MjkyMTAwMA"
+                },
+                "performedPeriod": {
+                    "end": "2024-03-14T03:00:00+00:00",
+                    "start": "2024-03-14T02:50:00+00:00"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/10009880728"
+                        }
+                    }
+                ],
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ServiceRequest/9ecbf409-9234-4dea-852e-4de22ed93ca9",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "3457005",
+                                "display": "Patient referral",
+                                "system": "http://snomed.info/sct"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "737492002",
+                            "display": "Outpatient care management",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Rujukan untuk pemeriksan lebih lanjut terkait adanya kemungkinan penyakit jantung"
+                },
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "9ecbf409-9234-4dea-852e-4de22ed93ca9",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/servicerequest/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "value": "000015"
+                    }
+                ],
+                "intent": "original-order",
+                "locationCode": [
+                    {
+                        "coding": [
+                            {
+                                "code": "HOSP",
+                                "display": "Hospital",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                            }
+                        ]
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-07T02:00:18.772760+00:00",
+                    "versionId": "MTc1NDUzMjAxODc3Mjc2MDAwMA"
+                },
+                "occurrenceDateTime": "2024-03-14T03:15:00+00:00",
+                "patientInstruction": "Rujukan ke RS SATUEHSET. Dalam keadaan darurat dapat menghubungi hotline RS di nomor 1500567",
+                "performer": [
+                    {
+                        "display": "Dr. Alexander",
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "priority": "stat",
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "code": "I10",
+                                "display": "Essential (primary) hypertension",
+                                "system": "http://hl7.org/fhir/sid/icd-10"
+                            }
+                        ],
+                        "text": "Hipertensi"
+                    }
+                ],
+                "requester": {
+                    "display": "Dr. Alexander",
+                    "reference": "Practitioner/10009880728"
+                },
+                "resourceType": "ServiceRequest",
+                "status": "active",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/3b82b38f-20a9-4253-a7a7-0673fe71d56a",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "problem-list-item",
+                                "display": "Problem List Item",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                            }
+                        ]
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "code": "active",
+                            "display": "Active",
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "194828000",
+                            "display": "Angina pectoris",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "3b82b38f-20a9-4253-a7a7-0673fe71d56a",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-07T01:45:03.663304+00:00",
+                    "versionId": "MTc1NDUzMTEwMzY2MzMwNDAwMA"
+                },
+                "onsetDateTime": "2024-03-14T01:10:00+00:00",
+                "recordedDate": "2024-03-14T02:16:00+00:00",
+                "resourceType": "Condition",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/a3e52e62-10b9-4d54-8b2b-fd6585737972",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "problem-list-item",
+                                "display": "Problem List Item",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                            }
+                        ]
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "code": "active",
+                            "display": "Active",
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "161527007",
+                            "display": "H/O: asthma",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "a3e52e62-10b9-4d54-8b2b-fd6585737972",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:36:45.928737+00:00",
+                    "versionId": "MTc1NDQ2OTQwNTkyODczNzAwMA"
+                },
+                "recordedDate": "2024-03-14T02:17:00+00:00",
+                "resourceType": "Condition",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/7832ec54-9064-44f2-8719-d1cb531c849f",
+            "resource": {
+                "bodySite": {
+                    "coding": [
+                        {
+                            "code": "368209003",
+                            "display": "Right arm",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8480-6",
+                            "display": "Systolic blood pressure",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2024-03-14T02:24:00+00:00",
+                "encounter": {
+                    "display": "Pemeriksaan Fisik Tekanan Darah Sistolik Jane Smith di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "7832ec54-9064-44f2-8719-d1cb531c849f",
+                "identifier": [],
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "code": "H",
+                                "display": "High",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                            }
+                        ],
+                        "text": "Di atas nilai referensi"
+                    }
+                ],
+                "issued": "2024-03-14T02:24:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:46:42.855820+00:00",
+                    "versionId": "MTc1NDQ3MDAwMjg1NTgyMDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mm[Hg]",
+                    "value": 182
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/707b2bf0-3971-4497-93fa-00e89381fbe5",
+            "resource": {
+                "bodySite": {
+                    "coding": [
+                        {
+                            "code": "368209003",
+                            "display": "Right arm",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8462-4",
+                            "display": "Diastolic blood pressure",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2024-03-14T02:24:00+00:00",
+                "encounter": {
+                    "display": "Pemeriksaan Fisik Tekanan Darah Diastolik Jane Smith di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "707b2bf0-3971-4497-93fa-00e89381fbe5",
+                "identifier": [],
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "code": "H",
+                                "display": "High",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                            }
+                        ],
+                        "text": "Di atas nilai referensi"
+                    }
+                ],
+                "issued": "2024-03-14T02:24:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:46:46.909187+00:00",
+                    "versionId": "MTc1NDQ3MDAwNjkwOTE4NzAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mm[Hg]",
+                    "value": 115
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/0e70d87b-8e78-4cc0-99bf-48cc8caa01f4",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8310-5",
+                            "display": "Body temperature",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2024-03-14T02:25:00+00:00",
+                "encounter": {
+                    "display": "Pemeriksaan Fisik Suhu Jane Smith di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "0e70d87b-8e78-4cc0-99bf-48cc8caa01f4",
+                "identifier": [],
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "code": "H",
+                                "display": "High",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                            }
+                        ],
+                        "text": "Di atas nilai referensi"
+                    }
+                ],
+                "issued": "2024-03-14T02:25:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:46:53.244060+00:00",
+                    "versionId": "MTc1NDQ3MDAxMzI0NDA2MDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "Cel",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "C",
+                    "value": 37.5
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/231f1eb5-f9a5-4cbe-bb58-6295f990b0f9",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8867-4",
+                            "display": "Heart rate",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2024-03-14T02:22:00+00:00",
+                "encounter": {
+                    "display": "Pemeriksaan Fisik Nadi Jane Smith di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "231f1eb5-f9a5-4cbe-bb58-6295f990b0f9",
+                "identifier": [],
+                "issued": "2024-03-14T02:22:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:46:49.766044+00:00",
+                    "versionId": "MTc1NDQ3MDAwOTc2NjA0NDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "/min",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "{beats}/minute",
+                    "value": 80
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/1bdc8c93-e2d7-4e58-ba04-b0b8e32adb7c",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "29463-7",
+                            "display": "Body weight",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2024-03-14T02:26:00+00:00",
+                "encounter": {
+                    "display": "Pemeriksaan Antropometri Jane Smith di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "1bdc8c93-e2d7-4e58-ba04-b0b8e32adb7c",
+                "identifier": [],
+                "issued": "2024-03-14T02:26:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:47:15.706206+00:00",
+                    "versionId": "MTc1NDQ3MDAzNTcwNjIwNjAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "kg",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "kg",
+                    "value": 75
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/dc774b86-a49f-49f0-a55f-125f5c603ede",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8302-2",
+                            "display": "Body height",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2024-03-14T02:27:00+00:00",
+                "encounter": {
+                    "display": "Pemeriksaan Antropometri Jane Smith di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "dc774b86-a49f-49f0-a55f-125f5c603ede",
+                "identifier": [],
+                "issued": "2024-03-14T02:27:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:47:23.826858+00:00",
+                    "versionId": "MTc1NDQ3MDA0MzgyNjg1ODAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "cm",
+                    "value": 160
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Specimen/951074fd-27a1-4444-9454-beeb4557bf88",
+            "resource": {
+                "collection": {
+                    "collectedDateTime": "2024-03-14T02:30:00+00:00",
+                    "collector": {
+                        "display": "Dr. dr. Voight, MARS",
+                        "reference": "Practitioner/10009880728"
+                    },
+                    "fastingStatusCodeableConcept": {
+                        "coding": [
+                            {
+                                "code": "F",
+                                "display": "Patient was fasting prior to the procedure.",
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0916"
+                            }
+                        ]
+                    },
+                    "method": {
+                        "coding": [
+                            {
+                                "code": "82078001",
+                                "display": "Collection of blood specimen for laboratory",
+                                "system": "http://snomed.info/sct"
+                            }
+                        ]
+                    },
+                    "quantity": {
+                        "unit": "mL",
+                        "value": 6
+                    }
+                },
+                "condition": [
+                    {
+                        "text": "Kondisi Spesimen Baik"
+                    }
+                ],
+                "extension": [
+                    {
+                        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedTime",
+                        "valueDateTime": "2024-03-14T02:32:00+00:00"
+                    },
+                    {
+                        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/TransportedPerson",
+                        "valueContactDetail": {
+                            "name": "Burhan",
+                            "telecom": [
+                                {
+                                    "system": "phone",
+                                    "value": "021-5375162"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ReceivedPerson",
+                        "valueReference": {
+                            "display": "Dr. John Doe",
+                            "reference": "Practitioner/10009880728"
+                        }
+                    }
+                ],
+                "id": "951074fd-27a1-4444-9454-beeb4557bf88",
+                "identifier": [
+                    {
+                        "assigner": {
+                            "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                        },
+                        "system": "http://sys-ids.kemkes.go.id/specimen/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "value": "0000001"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:50:02.955751+00:00",
+                    "versionId": "MTc1NDQ3MDIwMjk1NTc1MTAwMA"
+                },
+                "processing": [
+                    {
+                        "timeDateTime": "2024-03-14T02:34:00+00:00"
+                    }
+                ],
+                "receivedTime": "2024-03-14T02:33:00+00:00",
+                "request": [
+                    {
+                        "reference": "ServiceRequest/047ceef5-f174-494b-b2b3-30df8760dc91"
+                    }
+                ],
+                "resourceType": "Specimen",
+                "status": "available",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "type": {
+                    "coding": [
+                        {
+                            "code": "119297000",
+                            "display": "Blood specimen",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/DiagnosticReport/85a2f6d0-5c81-4c7b-b432-5ff962ec43fb",
+            "resource": {
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/885f8986-c6f9-4b7f-a8da-3f885f4e426d"
+                    }
+                ],
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "CH",
+                                "display": "Chemistry",
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "100898-6",
+                            "display": "Lipid panel - Serum or Plasma",
+                            "system": "http://loinc.org"
+                        }
+                    ],
+                    "text": "Pemeriksaan Profil Lipid"
+                },
+                "conclusion": "Hasil pemeriksaan profil lipid dengan rincian Kolesterol tinggi, Trigliserida tinggi, LDL tinggi, dan HDL rendah  menunjukkan adanya risiko terkena penyakit jantung",
+                "effectiveDateTime": "2024-03-14T02:35:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "85a2f6d0-5c81-4c7b-b432-5ff962ec43fb",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/diagnostic/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0/lab",
+                        "use": "official",
+                        "value": "5234342"
+                    }
+                ],
+                "issued": "2024-03-14T02:36:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-07T01:57:01.733690+00:00",
+                    "versionId": "MTc1NDUzMTgyMTczMzY5MDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    },
+                    {
+                        "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                    }
+                ],
+                "resourceType": "DiagnosticReport",
+                "result": [
+                    {
+                        "reference": "Observation/09f7a794-3cec-4e87-94b4-9c5e90f0111c"
+                    },
+                    {
+                        "reference": "Observation/3f2171ef-cf0c-4787-8857-65364dd60da2"
+                    },
+                    {
+                        "reference": "Observation/114f1657-7e09-4a06-b5fa-18807c0fb9d2"
+                    },
+                    {
+                        "reference": "Observation/6c209f0c-66db-4854-9276-bafa5225486c"
+                    }
+                ],
+                "specimen": [
+                    {
+                        "reference": "Specimen/610d9335-e100-4de5-9bf1-837efc22c23f"
+                    }
+                ],
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/MedicationRequest/7fc550c9-7211-4752-aa36-35e405f73609",
+            "resource": {
+                "authoredOn": "2024-03-14T03:10:10+00:00",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "outpatient",
+                                "display": "Outpatient",
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+                            }
+                        ]
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "code": "continuous",
+                            "display": "Continuing long term therapy",
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"
+                        }
+                    ]
+                },
+                "dispenseRequest": {
+                    "dispenseInterval": {
+                        "code": "d",
+                        "system": "http://unitsofmeasure.org",
+                        "unit": "days",
+                        "value": 1
+                    },
+                    "expectedSupplyDuration": {
+                        "code": "d",
+                        "system": "http://unitsofmeasure.org",
+                        "unit": "days",
+                        "value": 30
+                    },
+                    "numberOfRepeatsAllowed": 0,
+                    "performer": {
+                        "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                    },
+                    "quantity": {
+                        "code": "TAB",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                        "unit": "TAB",
+                        "value": 30
+                    },
+                    "validityPeriod": {
+                        "end": "2024-03-15T03:10:00+00:00",
+                        "start": "2024-03-14T03:10:00+00:00"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "additionalInstruction": [
+                            {
+                                "text": "Diminum setiap hari"
+                            }
+                        ],
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "code": "TAB",
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                                    "unit": "TAB",
+                                    "value": 1
+                                },
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "code": "ordered",
+                                            "display": "Ordered",
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "patientInstruction": "1 tablet perhari, diminum setiap hari tanpa jeda selama 1 bulan",
+                        "route": {
+                            "coding": [
+                                {
+                                    "code": "O",
+                                    "display": "Oral",
+                                    "system": "http://www.whocc.no/atc"
+                                }
+                            ]
+                        },
+                        "sequence": 1,
+                        "text": "1 tablet per hari",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            }
+                        }
+                    }
+                ],
+                "encounter": {
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "7fc550c9-7211-4752-aa36-35e405f73609",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/prescription/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "use": "official",
+                        "value": "123456788"
+                    },
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/prescription-item/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "use": "official",
+                        "value": "123456788-1"
+                    }
+                ],
+                "intent": "order",
+                "medicationReference": {
+                    "display": "Amlodipine Besilate 5 mg Tablet (DEXA MEDICA)",
+                    "reference": "Medication/6b7d5850-b14a-4c77-80ae-31ed38e3206e"
+                },
+                "meta": {
+                    "lastUpdated": "2025-08-06T09:01:37.849166+00:00",
+                    "versionId": "MTc1NDQ3MDg5Nzg0OTE2NjAwMA"
+                },
+                "priority": "routine",
+                "requester": {
+                    "display": "Dr. dr. Voight, MARS",
+                    "reference": "Practitioner/10009880728"
+                },
+                "resourceType": "MedicationRequest",
+                "status": "completed",
+                "subject": {
+                    "display": "Jane Smith",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/ClinicalImpression/e5412363-b8f7-42db-9f45-5de4ee7f7936",
+            "resource": {
+                "assessor": {
+                    "reference": "Practitioner/10009880728"
+                },
+                "date": "2024-03-14T03:15:00+00:00",
+                "description": "Ibu Claudia Sintia Terdiagnosis Hipertensi",
+                "effectiveDateTime": "2024-03-14T03:15:00+00:00",
+                "encounter": {
+                    "display": "Kunjungan Claudia Sintia di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "finding": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "I10",
+                                    "display": "Essential (primary) hypertension",
+                                    "system": "http://hl7.org/fhir/sid/icd-10"
+                                }
+                            ]
+                        },
+                        "itemReference": {
+                            "reference": "Condition/1a08a280-b968-46e9-bf48-beae115c9ad4"
+                        }
+                    },
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "I25.9",
+                                    "display": "Chronic ischaemic heart disease, unspecified",
+                                    "system": "http://hl7.org/fhir/sid/icd-10"
+                                }
+                            ]
+                        },
+                        "itemReference": {
+                            "reference": "Condition/3b82b38f-20a9-4253-a7a7-0673fe71d56a"
+                        }
+                    }
+                ],
+                "id": "e5412363-b8f7-42db-9f45-5de4ee7f7936",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/clinicalimpression/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "use": "official",
+                        "value": "Prognosis_000123"
+                    }
+                ],
+                "investigation": [
+                    {
+                        "code": {
+                            "text": "Pemeriksaan Profil Lipid"
+                        },
+                        "item": [
+                            {
+                                "reference": "DiagnosticReport/85a2f6d0-5c81-4c7b-b432-5ff962ec43fb"
+                            }
+                        ]
+                    },
+                    {
+                        "code": {
+                            "text": "Elektrokardiogram"
+                        },
+                        "item": [
+                            {
+                                "reference": "Observation/8af8ae78-5526-4654-89ff-ec9dfcd24041"
+                            }
+                        ]
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-07T01:59:15.675433+00:00",
+                    "versionId": "MTc1NDUzMTk1NTY3NTQzMzAwMA"
+                },
+                "problem": [
+                    {
+                        "reference": "Condition/1a08a280-b968-46e9-bf48-beae115c9ad4"
+                    },
+                    {
+                        "reference": "Condition/3b82b38f-20a9-4253-a7a7-0673fe71d56a"
+                    }
+                ],
+                "prognosisCodeableConcept": [
+                    {
+                        "coding": [
+                            {
+                                "code": "67334001",
+                                "display": "Guarded prognosis",
+                                "system": "http://snomed.info/sct"
+                            }
+                        ]
+                    }
+                ],
+                "resourceType": "ClinicalImpression",
+                "status": "completed",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "summary": "Prognosis Hipertensi dengan taerget organ damage berupa Penyakit Jantung Iskemik Kronis sehingga kecurigaan terhadap penyakit Jantung"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/AllergyIntolerance/d4e02558-ef08-4698-bf38-ba048d1251ac",
+            "resource": {
+                "category": [
+                    "food"
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "code": "active",
+                            "display": "Active",
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "91930004",
+                            "display": "Allergy to eggs",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ],
+                    "text": "Alergi Telur"
+                },
+                "encounter": {
+                    "display": "Kunjungan Claudia Sintia di hari Kamis, 14 Maret 2024",
+                    "reference": "Encounter/654e2d68-d24e-4ab4-b51e-9eb9bd85192e"
+                },
+                "id": "d4e02558-ef08-4698-bf38-ba048d1251ac",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/allergy/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "use": "official",
+                        "value": "98769567"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:38:05.689961+00:00",
+                    "versionId": "MTc1NDQ2OTQ4NTY4OTk2MTAwMA"
+                },
+                "patient": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "recordedDate": "2024-03-14T02:19:00+00:00",
+                "recorder": {
+                    "reference": "Practitioner/10009880728"
+                },
+                "resourceType": "AllergyIntolerance",
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "code": "confirmed",
+                            "display": "Confirmed",
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/EpisodeOfCare/533de92c-8d1f-4b77-98a2-748a0189b6a6",
+            "resource": {
+                "id": "533de92c-8d1f-4b77-98a2-748a0189b6a6",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/episode-of-care/10000144",
+                        "value": "EOC2408210001"
+                    },
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/episode-of-care/suspect-id/",
+                        "value": "CADS202435000000018"
+                    },
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/episode-of-care/registry-id/",
+                        "value": "CADC202435000000042"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/10000144"
+                },
+                "meta": {
+                    "lastUpdated": "2024-08-21T08:57:41.222570+00:00",
+                    "versionId": "MTcyNDIzMDY2MTIyMjU3MDAwMA"
+                },
+                "patient": {
+                    "display": "pat***",
+                    "reference": "Patient/P03647103112"
+                },
+                "period": {
+                    "start": "2024-08-21T06:59:20+00:00"
+                },
+                "resourceType": "EpisodeOfCare",
+                "status": "active",
+                "statusHistory": [
+                    {
+                        "period": {
+                            "end": "2024-08-21T07:46:57+00:00",
+                            "start": "2024-08-21T06:59:20+00:00"
+                        },
+                        "status": "waitlist"
+                    },
+                    {
+                        "period": {
+                            "start": "2024-08-21T07:46:57+00:00"
+                        },
+                        "status": "active"
+                    }
+                ],
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "code": "CAD",
+                                "display": "Coronary Arterial Disease Management Care",
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/episodeofcare-type"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Medication/6b7d5850-b14a-4c77-80ae-31ed38e3206e",
+            "resource": {
+                "batch": {
+                    "expirationDate": "2025-07-22T14:27:00+00:00",
+                    "lotNumber": "1625042B"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "93002126",
+                            "display": "Amlodipine Besilate 5 mg Tablet (DEXA MEDICA)",
+                            "system": "http://sys-ids.kemkes.go.id/kfa"
+                        }
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationType",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "NC",
+                                    "display": "Non-compound",
+                                    "system": "http://terminology.kemkes.go.id/CodeSystem/medication-type"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "form": {
+                    "coding": [
+                        {
+                            "code": "BS066",
+                            "display": "Tablet",
+                            "system": "http://terminology.kemkes.go.id/CodeSystem/medication-form"
+                        }
+                    ]
+                },
+                "id": "6b7d5850-b14a-4c77-80ae-31ed38e3206e",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/medication/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "use": "official",
+                        "value": "123456797"
+                    }
+                ],
+                "ingredient": [
+                    {
+                        "isActive": true,
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "91000397",
+                                    "display": "AMLODIPINE",
+                                    "system": "http://sys-ids.kemkes.go.id/kfa"
+                                }
+                            ]
+                        },
+                        "strength": {
+                            "denominator": {
+                                "code": "TAB",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                                "unit": "TAB",
+                                "value": 1
+                            },
+                            "numerator": {
+                                "code": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "value": 5
+                            }
+                        }
+                    }
+                ],
+                "manufacturer": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "meta": {
+                    "lastUpdated": "2025-08-06T08:56:09.925002+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Medication"
+                    ],
+                    "versionId": "MTc1NDQ3MDU2OTkyNTAwMjAwMA"
+                },
+                "resourceType": "Medication",
+                "status": "active"
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "search",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=d68ad2ce-81ed-49f6-a89a-0bbafa7caf41&_include=%2A&subject=P03647103112"
+        },
+        {
+            "relation": "first",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=d68ad2ce-81ed-49f6-a89a-0bbafa7caf41&_include=%2A&subject=P03647103112"
+        },
+        {
+            "relation": "self",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=d68ad2ce-81ed-49f6-a89a-0bbafa7caf41&_include=%2A&subject=P03647103112"
+        }
+    ],
+    "resourceType": "Bundle",
+    "total": 24,
+    "type": "searchset"
+}

@@ -1,0 +1,2413 @@
+{
+    "entry": [
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/1860f97b-d8bf-4604-9872-0a39785fb105",
+            "resource": {
+                "author": [
+                    {
+                        "display": "Dr. Alexander",
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "date": "2023-03-05T05:00:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "1860f97b-d8bf-4604-9872-0a39785fb105",
+                "identifier": {
+                    "system": "http://sys-ids.kemkes.go.id/creator",
+                    "value": "6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "meta": {
+                    "lastUpdated": "2025-08-08T09:33:50.339128+00:00",
+                    "versionId": "MTc1NDY0NTYzMDMzOTEyODAwMA"
+                },
+                "resourceType": "Composition",
+                "section": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000002",
+                                    "display": "Episode Perawatan",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Episode Perawatan Registrasi Stroke",
+                                "reference": "EpisodeOfCare/aecb5ec2-a860-4376-805f-3b496378a63d"
+                            }
+                        ],
+                        "title": "Episode Perawatan"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000003",
+                                    "display": "Anamnesis",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi Wake Up Stroke",
+                                "reference": "Observation/bd7497e4-ece2-43c4-b333-1e4f4a76a8e0"
+                            },
+                            {
+                                "display": "Riwayat Penyakit: Hipertensi",
+                                "reference": "Observation/1996e2b0-f47e-440d-bff5-e3db59fadf3d"
+                            },
+                            {
+                                "display": "Riwayat Penyakit: Diabetes",
+                                "reference": "Observation/74045b96-a6b1-4857-864a-8a0857b22700"
+                            },
+                            {
+                                "display": "Riwayat Penyakit: Dislipidemia",
+                                "reference": "Observation/230fbde5-49b7-4738-875e-b23e8472edd0"
+                            },
+                            {
+                                "display": "Observasi Status Merokok",
+                                "reference": "Observation/61b4f70f-9003-470f-9695-707abba1314a"
+                            },
+                            {
+                                "display": "Observasi Riwayat Konsumsi Alkohol",
+                                "reference": "Observation/fbea1cfa-af02-4a43-b62d-c0b89d3db1c8"
+                            },
+                            {
+                                "display": "Observasi Riwayat KB Hormonal",
+                                "reference": "Observation/bcecea71-ebfe-45f6-b547-baa9cd61c960"
+                            },
+                            {
+                                "display": "Observasi mRS Pre-Stroke/pre-Admisi",
+                                "reference": "Observation/f787ff5e-0579-4811-a0bc-76708a5d891b"
+                            }
+                        ],
+                        "title": "Anamnesis"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000007",
+                                    "display": "Pemeriksaan Fisik",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi Diastole",
+                                "reference": "Observation/8118ae1e-261f-4339-addb-94af45447b3b"
+                            },
+                            {
+                                "display": "Observasi Sistole",
+                                "reference": "Observation/df02e44c-61c1-4dea-a60b-5d3af04e78ab"
+                            },
+                            {
+                                "display": "Observasi Berat Badan",
+                                "reference": "Observation/ee3bc6ff-4ba7-4c24-a463-53811da3abe0"
+                            },
+                            {
+                                "display": "Observasi Tinggi Badan",
+                                "reference": "Observation/5c23385f-ddd3-44cc-809c-a7efcdbadee5"
+                            }
+                        ],
+                        "title": "Pemeriksaan Fisik"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000008",
+                                    "display": "Pemeriksaan Neurologis Stroke",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi Total Skor NHSS Admisi",
+                                "reference": "Observation/83666622-7f81-4336-96db-f0d4c72bc11c"
+                            },
+                            {
+                                "display": "Observasi mRS Admisi",
+                                "reference": "Observation/d63d9b5d-aa98-4405-8c25-e4e8cc62a073"
+                            },
+                            {
+                                "display": "Observasi Disphagia",
+                                "reference": "Observation/07892d33-046f-4951-aaf1-9434c1b379ca"
+                            }
+                        ],
+                        "title": "Pemeriksaan Neurologis Stroke"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000009",
+                                    "display": "Hasil Pemeriksaan Penunjang",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi CT Scan Kepala",
+                                "reference": "Observation/980a3b8c-d4ea-48e5-a3a0-2bb0f82f924d"
+                            },
+                            {
+                                "display": "Observasi ASPECT Score",
+                                "reference": "Observation/f22de1a0-6fc8-4e13-abc7-8e0d87ba6928"
+                            },
+                            {
+                                "display": "Observation CTA",
+                                "reference": "Observation/3144e054-7de1-44b4-8ea7-3a80f1f82e8f"
+                            }
+                        ],
+                        "title": "Hasil Pemeriksaan Penunjang"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000005",
+                                    "display": "Tindakan/Prosedur Medis",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Obat Clopidogrel",
+                                "reference": "Medication/d40bd961-a1af-4f66-8655-bfc501abc42c"
+                            },
+                            {
+                                "display": "Procedure rTPA",
+                                "reference": "Procedure/3baf3836-1e71-4a74-8e51-b6505a26d0f0"
+                            },
+                            {
+                                "display": "Observasi Total Skor NIHSS Post rTPA",
+                                "reference": "Observation/9ad45971-33ba-41fb-aa1b-bebfa882cb71"
+                            },
+                            {
+                                "display": "Prosedur Trombektomi",
+                                "reference": "Procedure/75f5fe11-8514-442a-a23b-b50001e8ceef"
+                            },
+                            {
+                                "display": "Observasi TICI Score",
+                                "reference": "Observation/34d72695-6997-4593-bd6c-890373010f74"
+                            }
+                        ],
+                        "title": "Tindakan/Prosedur Medis"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000010",
+                                    "display": "Data Kepulangan Pasien Stroke",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Observasi Total Skor NIHSS Pulang Pasien",
+                                "reference": "Observation/5ee7af85-7f11-4ec3-82f9-aa8c3a4d03f6"
+                            },
+                            {
+                                "display": "Observasi mRS Pulang Pasien",
+                                "reference": "Observation/f4b0369b-e33d-46f3-b0fa-28d6acb14b6a"
+                            }
+                        ],
+                        "title": "Data Kepulangan Pasien Stroke"
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "TK000004",
+                                    "display": "Diagnosis",
+                                    "system": "http://terminology.kemkes.go.id"
+                                }
+                            ]
+                        },
+                        "entry": [
+                            {
+                                "display": "Primary Stokre Ischemic",
+                                "reference": "Condition/33fc192f-20c2-4530-a113-7b5bc6d7f4a5"
+                            }
+                        ],
+                        "title": "Diagnosis Stroke"
+                    }
+                ],
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "title": "Data Registrasi Stroke",
+                "type": {
+                    "coding": [
+                        {
+                            "code": "TK000006",
+                            "display": "Data Registrasi Stroke",
+                            "system": "http://terminology.kemkes.go.id"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "OperationOutcome",
+                "issue": [
+                    {
+                        "severity": "information",
+                        "code": "suppressed",
+                        "details": {
+                            "text": "The operation did not return any information due to consent or privacy rules."
+                        },
+                        "diagnostics": "Missing query parameters: 1) Combination of NIK + name + birthdate, or 2) Combination of gender + name + birthdate, 3) NIK, or 4) NIK Ibu"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f",
+            "resource": {
+                "class": {
+                    "code": "EMER",
+                    "display": "emergency",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                },
+                "diagnosis": [
+                    {
+                        "condition": {
+                            "display": "Cerebral infarction due unspecified occlusion or stenos cerebrl arteries",
+                            "reference": "Condition/f6ae9b21-187f-43bc-ab0f-995a1782d92b"
+                        },
+                        "use": {
+                            "coding": [
+                                {
+                                    "code": "DD",
+                                    "display": "Discharge diagnosis ",
+                                    "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "episodeOfCare": [
+                    {
+                        "reference": "EpisodeOfCare/aecb5ec2-a860-4376-805f-3b496378a63d"
+                    }
+                ],
+                "hospitalization": {
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "code": "oth",
+                                "display": "Other",
+                                "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition"
+                            }
+                        ],
+                        "text": "Pasien dipindahkan dari IGD ke rawat inap."
+                    }
+                },
+                "id": "9939c7ba-305b-4398-b366-6ee9458fe21f",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/encounter/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "value": "2025080826229"
+                    }
+                ],
+                "location": [
+                    {
+                        "extension": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "value",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "reguler",
+                                                    "display": "Kelas Reguler",
+                                                    "system": "http://terminology.kemkes.go.id/CodeSystem/locationServiceClass-Outpatient"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "url": "upgradeClassIndicator",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "kelas-tetap",
+                                                    "display": "Kelas Tetap Perawatan",
+                                                    "system": "http://terminology.kemkes.go.id/CodeSystem/locationUpgradeClass"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceClass"
+                            }
+                        ],
+                        "location": {
+                            "display": "Ruangan Triase, Instalasi Gawat Darurat, Gedung Utama, Lantai 1",
+                            "reference": "Location/a482e8d2-870e-45f2-a067-cccf633f0cde"
+                        },
+                        "period": {
+                            "end": "2023-03-01T02:10:00+00:00",
+                            "start": "2023-03-01T02:01:00+00:00"
+                        }
+                    },
+                    {
+                        "extension": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "value",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "reguler",
+                                                    "display": "Kelas Reguler",
+                                                    "system": "http://terminology.kemkes.go.id/CodeSystem/locationServiceClass-Outpatient"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "url": "upgradeClassIndicator",
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "kelas-tetap",
+                                                    "display": "Kelas Tetap Perawatan",
+                                                    "system": "http://terminology.kemkes.go.id/CodeSystem/locationUpgradeClass"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/ServiceClass"
+                            }
+                        ],
+                        "location": {
+                            "display": "Ruangan Resusitasi, Instalasi Gawat Darurat, Gedung Utama, Lantai 1",
+                            "reference": "Location/a482e8d2-870e-45f2-a067-cccf633f0cde"
+                        },
+                        "period": {
+                            "end": "2023-03-01T03:10:00+00:00",
+                            "start": "2023-03-01T02:10:00+00:00"
+                        }
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:28:48.033625+00:00",
+                    "versionId": "MTc1NDY0MTcyODAzMzYyNTAwMA"
+                },
+                "participant": [
+                    {
+                        "individual": {
+                            "display": "Dr. Alexander",
+                            "reference": "Practitioner/10009880728"
+                        },
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "code": "ATND",
+                                        "display": "attender",
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "period": {
+                    "end": "2023-03-01T03:10:00+00:00",
+                    "start": "2023-03-01T02:00:00+00:00"
+                },
+                "resourceType": "Encounter",
+                "serviceProvider": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "status": "finished",
+                "statusHistory": [
+                    {
+                        "period": {
+                            "end": "2023-03-01T02:01:00+00:00",
+                            "start": "2023-03-01T02:00:00+00:00"
+                        },
+                        "status": "arrived"
+                    },
+                    {
+                        "period": {
+                            "end": "2023-03-01T02:10:00+00:00",
+                            "start": "2023-03-01T02:01:00+00:00"
+                        },
+                        "status": "triaged"
+                    },
+                    {
+                        "period": {
+                            "end": "2023-03-01T03:10:00+00:00",
+                            "start": "2023-03-01T02:10:00+00:00"
+                        },
+                        "status": "in-progress"
+                    },
+                    {
+                        "period": {
+                            "end": "2023-03-01T03:10:00+00:00",
+                            "start": "2023-03-01T03:10:00+00:00"
+                        },
+                        "status": "finished"
+                    }
+                ],
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Condition/33fc192f-20c2-4530-a113-7b5bc6d7f4a5",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis",
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                            }
+                        ]
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "code": "active",
+                            "display": "Active",
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "I63.5",
+                            "display": "Cerebral infarction due unspecified occlusion or stenos cerebrl arteries",
+                            "system": "http://hl7.org/fhir/sid/icd-10"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/b02759e2-de8a-45ce-a6c8-a577a89e800a"
+                },
+                "id": "33fc192f-20c2-4530-a113-7b5bc6d7f4a5",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-08T09:05:51.035932+00:00",
+                    "versionId": "MTc1NDY0Mzk1MTAzNTkzMjAwMA"
+                },
+                "note": [
+                    {
+                        "text": "Pasien Stroke Iskemik"
+                    }
+                ],
+                "onsetDateTime": "2023-03-01T01:00:00+00:00",
+                "recordedDate": "2023-03-02T04:00:00+00:00",
+                "resourceType": "Condition",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/EpisodeOfCare/aecb5ec2-a860-4376-805f-3b496378a63d",
+            "resource": {
+                "id": "aecb5ec2-a860-4376-805f-3b496378a63d",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/episode-of-care/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "value": "EOC1023456"
+                    },
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/episode-of-care/suspect-id/",
+                        "value": "CVDS202511000003108"
+                    },
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/episode-of-care/registry-id/",
+                        "value": "CVDC202511000000039"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:29:56.957720+00:00",
+                    "versionId": "MTc1NDY0MTc5Njk1NzcyMDAwMA"
+                },
+                "patient": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "period": {
+                    "start": "2023-02-01T02:40:00+00:00"
+                },
+                "resourceType": "EpisodeOfCare",
+                "status": "active",
+                "statusHistory": [
+                    {
+                        "period": {
+                            "end": "2023-03-01T02:40:00+00:00",
+                            "start": "2023-02-01T02:40:00+00:00"
+                        },
+                        "status": "waitlist"
+                    },
+                    {
+                        "period": {
+                            "start": "2023-03-01T02:40:00+00:00"
+                        },
+                        "status": "active"
+                    }
+                ],
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "code": "CVD",
+                                "display": "Cerebrovascular Disease",
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/episodeofcare-type"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Medication/d40bd961-a1af-4f66-8655-bfc501abc42c",
+            "resource": {
+                "code": {
+                    "coding": [
+                        {
+                            "code": "93000624",
+                            "display": "Clopidogrel Bisulfate 75 mg Tablet Salut Selaput (PLADOGREL)",
+                            "system": "http://sys-ids.kemkes.go.id/kfa"
+                        }
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationType",
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "NC",
+                                    "display": "Non-compound",
+                                    "system": "http://terminology.kemkes.go.id/CodeSystem/medication-type"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "form": {
+                    "coding": [
+                        {
+                            "code": "BS077",
+                            "display": "Tablet Salut Selaput",
+                            "system": "http://terminology.kemkes.go.id/CodeSystem/medication-form"
+                        }
+                    ]
+                },
+                "id": "d40bd961-a1af-4f66-8655-bfc501abc42c",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/medication/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "use": "official",
+                        "value": "666733"
+                    }
+                ],
+                "ingredient": [
+                    {
+                        "isActive": true,
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "91000403",
+                                    "display": "CLOPIDOGREL",
+                                    "system": "http://sys-ids.kemkes.go.id/kfa"
+                                }
+                            ]
+                        },
+                        "strength": {
+                            "denominator": {
+                                "code": "TAB",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                                "unit": "Tablet",
+                                "value": 1
+                            },
+                            "numerator": {
+                                "code": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "value": 75
+                            }
+                        }
+                    }
+                ],
+                "manufacturer": {
+                    "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                },
+                "meta": {
+                    "lastUpdated": "2025-08-08T09:06:24.992558+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Medication"
+                    ],
+                    "versionId": "MTc1NDY0Mzk4NDk5MjU1ODAwMA"
+                },
+                "resourceType": "Medication",
+                "status": "active"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/f787ff5e-0579-4811-a0bc-76708a5d891b",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "75859-9",
+                            "display": "Modified rankin scale",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "f787ff5e-0579-4811-a0bc-76708a5d891b",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:59:50.497840+00:00",
+                    "versionId": "MTc1NDYzOTk5MDQ5Nzg0MDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "LA6111-4",
+                            "display": "0",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/5c23385f-ddd3-44cc-809c-a7efcdbadee5",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8302-2",
+                            "display": "Body height",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "5c23385f-ddd3-44cc-809c-a7efcdbadee5",
+                "identifier": [],
+                "issued": "2023-03-01T02:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:56:09.597202+00:00",
+                    "versionId": "MTc1NDYzOTc2OTU5NzIwMjAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "cm",
+                    "value": 165
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/fbea1cfa-af02-4a43-b62d-c0b89d3db1c8",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "social-history",
+                                "display": "Social History",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "405137009",
+                            "display": "Risk control behavior: alcohol use",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "fbea1cfa-af02-4a43-b62d-c0b89d3db1c8",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:59:20.206528+00:00",
+                    "versionId": "MTc1NDYzOTk2MDIwNjUyODAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueBoolean": false
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/8118ae1e-261f-4339-addb-94af45447b3b",
+            "resource": {
+                "bodySite": {
+                    "coding": [
+                        {
+                            "code": "368209003",
+                            "display": "Right arm",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8462-4",
+                            "display": "Diastolic blood pressure",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "8118ae1e-261f-4339-addb-94af45447b3b",
+                "identifier": [],
+                "issued": "2023-03-01T02:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:54:07.390480+00:00",
+                    "versionId": "MTc1NDYzOTY0NzM5MDQ4MDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mm[Hg]",
+                    "value": 90
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/74045b96-a6b1-4857-864a-8a0857b22700",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "survey",
+                                "display": "Survey",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "73211009",
+                            "display": "Diabetes mellitus",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "715047008",
+                                    "display": "Does obtain medication",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "31509003",
+                                    "display": "Controlled",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    }
+                ],
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "74045b96-a6b1-4857-864a-8a0857b22700",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:58:23.403769+00:00",
+                    "versionId": "MTc1NDYzOTkwMzQwMzc2OTAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueBoolean": true
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/07892d33-046f-4951-aaf1-9434c1b379ca",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "431765005",
+                            "display": "Screening for dysphagia",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "07892d33-046f-4951-aaf1-9434c1b379ca",
+                "identifier": [],
+                "issued": "2023-03-01T02:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:06:08.851404+00:00",
+                    "versionId": "MTc1NDY0MDM2ODg1MTQwNDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "162023004",
+                            "display": "No problem swallowing",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/3144e054-7de1-44b4-8ea7-3a80f1f82e8f",
+            "resource": {
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/302bac31-808c-4465-96b5-ecb8ad598554"
+                    }
+                ],
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "imaging",
+                                "display": "Imaging",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "36146-9",
+                            "display": "CTA Carotid artery W contrast IV",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "derivedFrom": [
+                    {
+                        "reference": "ImagingStudy/2f6d16b6-a59b-4b0d-8517-d9f9d99ee512"
+                    }
+                ],
+                "effectiveDateTime": "2023-03-02T02:30:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/b02759e2-de8a-45ce-a6c8-a577a89e800a"
+                },
+                "id": "3144e054-7de1-44b4-8ea7-3a80f1f82e8f",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/observation/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "value": "O00021"
+                    }
+                ],
+                "issued": "2023-03-02T02:40:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T09:05:11.305259+00:00",
+                    "versionId": "MTc1NDY0MzkxMTMwNTI1OTAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    },
+                    {
+                        "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "415582006",
+                            "display": "Stenosis",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/980a3b8c-d4ea-48e5-a3a0-2bb0f82f924d",
+            "resource": {
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/b9628662-61c7-47e9-a20e-26f3dc4df704"
+                    }
+                ],
+                "bodySite": {
+                    "coding": [
+                        {
+                            "code": "69536005",
+                            "display": "Head structure",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "imaging",
+                                "display": "Imaging",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "42132-1",
+                            "display": "CT Head W contrast IV",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "derivedFrom": [
+                    {
+                        "reference": "ImagingStudy/abc47a45-0aef-4965-8838-c8925bfa8853"
+                    }
+                ],
+                "effectiveDateTime": "2023-11-06T09:45:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "980a3b8c-d4ea-48e5-a3a0-2bb0f82f924d",
+                "identifier": [
+                    {
+                        "system": "http://sys-ids.kemkes.go.id/observation/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                        "value": "2025080826229"
+                    }
+                ],
+                "issued": "2023-11-06T09:45:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:12:15.551720+00:00",
+                    "versionId": "MTc1NDY0MDczNTU1MTcyMDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    },
+                    {
+                        "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "432504007",
+                            "display": "Cerebral infarction",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/83666622-7f81-4336-96db-f0d4c72bc11c",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "72089-6",
+                            "display": "Total score [NIH Stroke Scale]",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "83666622-7f81-4336-96db-f0d4c72bc11c",
+                "identifier": [],
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "code": "IP099353",
+                                "display": "defisit neurologis sedang / cukup berat",
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/examination"
+                            }
+                        ]
+                    }
+                ],
+                "issued": "2023-03-01T02:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:05:38.690713+00:00",
+                    "versionId": "MTc1NDY0MDMzODY5MDcxMzAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "{score}",
+                    "value": 14
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/d63d9b5d-aa98-4405-8c25-e4e8cc62a073",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "75859-9",
+                            "display": "Modified rankin scale",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "d63d9b5d-aa98-4405-8c25-e4e8cc62a073",
+                "identifier": [],
+                "issued": "2023-03-01T02:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:05:54.613512+00:00",
+                    "versionId": "MTc1NDY0MDM1NDYxMzUxMjAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "LA6114-8",
+                            "display": "3",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/1996e2b0-f47e-440d-bff5-e3db59fadf3d",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "survey",
+                                "display": "Survey",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "38341003",
+                            "display": "Hypertension",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "268607006",
+                                    "display": "Hypertension risk level",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "827068008",
+                                    "display": "Stage 2 hypertension",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "715047008",
+                                    "display": "Does obtain medication",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "31509003",
+                                    "display": "Controlled",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    }
+                ],
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "1996e2b0-f47e-440d-bff5-e3db59fadf3d",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:57:47.492092+00:00",
+                    "versionId": "MTc1NDYzOTg2NzQ5MjA5MjAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueBoolean": true
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/bd7497e4-ece2-43c4-b333-1e4f4a76a8e0",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "survey",
+                                "display": "Survey",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "OC000186",
+                            "display": "Wake up stroke",
+                            "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "bd7497e4-ece2-43c4-b333-1e4f4a76a8e0",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:57:22.586293+00:00",
+                    "versionId": "MTc1NDYzOTg0MjU4NjI5MzAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueDateTime": "2023-02-28T22:00:00+00:00"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/bcecea71-ebfe-45f6-b547-baa9cd61c960",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "social-history",
+                                "display": "Social History",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "OC000170",
+                            "display": "Riwayat KB Hormonal",
+                            "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "bcecea71-ebfe-45f6-b547-baa9cd61c960",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:59:35.174071+00:00",
+                    "versionId": "MTc1NDYzOTk3NTE3NDA3MTAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueBoolean": false
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/61b4f70f-9003-470f-9695-707abba1314a",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "social-history",
+                                "display": "Social History",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "72166-2",
+                            "display": "Tobacco smoking status",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "61b4f70f-9003-470f-9695-707abba1314a",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:59:08.641425+00:00",
+                    "versionId": "MTc1NDYzOTk0ODY0MTQyNTAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "8392000",
+                            "display": "Non-smoker",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/34d72695-6997-4593-bd6c-890373010f74",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "procedure",
+                                "display": "Procedure",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "OC000183",
+                            "display": "Thrombolysis in Cerebral Infarction Score",
+                            "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T04:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "34d72695-6997-4593-bd6c-890373010f74",
+                "identifier": [],
+                "issued": "2023-03-01T04:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:22:27.006836+00:00",
+                    "versionId": "MTc1NDY0MTM0NzAwNjgzNjAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "OV000412",
+                            "display": "Grade 2b",
+                            "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/f4b0369b-e33d-46f3-b0fa-28d6acb14b6a",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "75859-9",
+                            "display": "Modified rankin scale",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-05T05:00:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/b02759e2-de8a-45ce-a6c8-a577a89e800a"
+                },
+                "id": "f4b0369b-e33d-46f3-b0fa-28d6acb14b6a",
+                "identifier": [],
+                "issued": "2023-03-05T05:00:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T09:08:41.100547+00:00",
+                    "versionId": "MTc1NDY0NDEyMTEwMDU0NzAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "LA6112-2",
+                            "display": "1",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/5ee7af85-7f11-4ec3-82f9-aa8c3a4d03f6",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "72089-6",
+                            "display": "Total score [NIH Stroke Scale]",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-05T05:00:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/b02759e2-de8a-45ce-a6c8-a577a89e800a"
+                },
+                "id": "5ee7af85-7f11-4ec3-82f9-aa8c3a4d03f6",
+                "identifier": [],
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "code": "IP099353",
+                                "display": "defisit neurologis sedang / cukup berat",
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/examination"
+                            }
+                        ]
+                    }
+                ],
+                "issued": "2023-03-05T05:00:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T09:08:33.687590+00:00",
+                    "versionId": "MTc1NDY0NDExMzY4NzU5MDAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "{score}",
+                    "value": 14
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/df02e44c-61c1-4dea-a60b-5d3af04e78ab",
+            "resource": {
+                "bodySite": {
+                    "coding": [
+                        {
+                            "code": "368209003",
+                            "display": "Right arm",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "8480-6",
+                            "display": "Systolic blood pressure",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "df02e44c-61c1-4dea-a60b-5d3af04e78ab",
+                "identifier": [],
+                "issued": "2023-03-01T02:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:55:32.396931+00:00",
+                    "versionId": "MTc1NDYzOTczMjM5NjkzMTAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "mm[Hg]",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "mm[Hg]",
+                    "value": 140
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/9ad45971-33ba-41fb-aa1b-bebfa882cb71",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "72089-6",
+                            "display": "Total score [NIH Stroke Scale]",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T03:00:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "9ad45971-33ba-41fb-aa1b-bebfa882cb71",
+                "identifier": [],
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "code": "IP099353",
+                                "display": "defisit neurologis sedang / cukup berat",
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/examination"
+                            }
+                        ]
+                    }
+                ],
+                "issued": "2023-03-01T03:00:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:21:15.379241+00:00",
+                    "versionId": "MTc1NDY0MTI3NTM3OTI0MTAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "{score}",
+                    "value": 14
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/ee3bc6ff-4ba7-4c24-a463-53811da3abe0",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "vital-signs",
+                                "display": "Vital Signs",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "29463-7",
+                            "display": "Body weight",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "effectiveDateTime": "2023-03-01T02:15:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "ee3bc6ff-4ba7-4c24-a463-53811da3abe0",
+                "identifier": [],
+                "issued": "2023-03-01T02:15:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:55:44.947016+00:00",
+                    "versionId": "MTc1NDYzOTc0NDk0NzAxNjAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "kg",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "kg",
+                    "value": 75
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/230fbde5-49b7-4738-875e-b23e8472edd0",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "survey",
+                                "display": "Survey",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "370992007",
+                            "display": "Dyslipidemia",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "715047008",
+                                    "display": "Does obtain medication",
+                                    "system": "http://snomed.info/sct"
+                                }
+                            ]
+                        },
+                        "valueBoolean": true
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "OC000180",
+                                    "display": "Intensitas Obat Statin",
+                                    "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term"
+                                }
+                            ]
+                        },
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "code": "OV000409",
+                                    "display": "Statin Intensitas Rendah",
+                                    "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "effectiveDateTime": "2023-03-01T02:10:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "230fbde5-49b7-4738-875e-b23e8472edd0",
+                "identifier": [],
+                "issued": "2023-03-01T02:10:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T07:58:37.393907+00:00",
+                    "versionId": "MTc1NDYzOTkxNzM5MzkwNzAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "valueBoolean": true
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Observation/f22de1a0-6fc8-4e13-abc7-8e0d87ba6928",
+            "resource": {
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "exam",
+                                "display": "Exam",
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "code": "OC000181",
+                            "display": "Alberta Stroke Program Early CT score",
+                            "system": "http://terminology.kemkes.go.id/CodeSystem/clinical-term"
+                        }
+                    ]
+                },
+                "derivedFrom": [
+                    {
+                        "reference": "ImagingStudy/abc47a45-0aef-4965-8838-c8925bfa8853"
+                    }
+                ],
+                "effectiveDateTime": "2023-11-06T09:45:00+00:00",
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "f22de1a0-6fc8-4e13-abc7-8e0d87ba6928",
+                "identifier": [],
+                "issued": "2023-11-06T09:45:00+00:00",
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:12:56.723458+00:00",
+                    "versionId": "MTc1NDY0MDc3NjcyMzQ1ODAwMA"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/10009880728"
+                    }
+                ],
+                "resourceType": "Observation",
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/P03647103112"
+                },
+                "valueQuantity": {
+                    "code": "{score}",
+                    "system": "http://unitsofmeasure.org",
+                    "unit": "{score}",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/3baf3836-1e71-4a74-8e51-b6505a26d0f0",
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "99.10",
+                            "display": "Injection or infusion of thrombolytic agent",
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "3baf3836-1e71-4a74-8e51-b6505a26d0f0",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:20:46.322356+00:00",
+                    "versionId": "MTc1NDY0MTI0NjMyMjM1NjAwMA"
+                },
+                "note": [
+                    {
+                        "text": "Prosedur r-TPA dengan dosis 0,6 mg"
+                    }
+                ],
+                "performedPeriod": {
+                    "end": "2023-03-01T03:00:00+00:00",
+                    "start": "2023-03-01T02:40:00+00:00"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Dokter Bronsig",
+                            "reference": "Practitioner/10009880728"
+                        }
+                    }
+                ],
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "code": "I63.5",
+                                "display": "Cerebral infarction due unspecified occlusion or stenos cerebrl arteries",
+                                "system": "http://hl7.org/fhir/sid/icd-10"
+                            }
+                        ]
+                    }
+                ],
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                },
+                "usedReference": [
+                    {
+                        "reference": "Medication/ccbda0d1-c412-414c-ac67-c29055381365"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Procedure/75f5fe11-8514-442a-a23b-b50001e8ceef",
+            "resource": {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "277132007",
+                            "display": "Therapeutic procedure",
+                            "system": "http://snomed.info/sct"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "code": "39.74",
+                            "display": "Endovascular removal of obstruction from head and neck vessel (s)",
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm"
+                        }
+                    ]
+                },
+                "encounter": {
+                    "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+                },
+                "id": "75f5fe11-8514-442a-a23b-b50001e8ceef",
+                "identifier": [],
+                "meta": {
+                    "lastUpdated": "2025-08-08T08:21:38.253603+00:00",
+                    "versionId": "MTc1NDY0MTI5ODI1MzYwMzAwMA"
+                },
+                "performedPeriod": {
+                    "end": "2023-03-01T04:00:00+00:00",
+                    "start": "2023-03-01T03:15:00+00:00"
+                },
+                "performer": [
+                    {
+                        "actor": {
+                            "display": "Dokter Bronsig",
+                            "reference": "Practitioner/10009880728"
+                        }
+                    }
+                ],
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "code": "I63.5",
+                                "display": "Cerebral infarction due unspecified occlusion or stenos cerebrl arteries",
+                                "system": "http://hl7.org/fhir/sid/icd-10"
+                            }
+                        ]
+                    }
+                ],
+                "resourceType": "Procedure",
+                "status": "completed",
+                "subject": {
+                    "display": "Claudia Sintia",
+                    "reference": "Patient/P03647103112"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Practitioner/10009880728",
+            "resource": {
+                "address": [
+                    {
+                        "city": "Kab. Garut",
+                        "country": "ID",
+                        "extension": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "province",
+                                        "valueCode": "32"
+                                    },
+                                    {
+                                        "url": "city",
+                                        "valueCode": "3205"
+                                    },
+                                    {
+                                        "url": "district",
+                                        "valueCode": "320519"
+                                    },
+                                    {
+                                        "url": "village",
+                                        "valueCode": "3205192003"
+                                    },
+                                    {
+                                        "url": "rw",
+                                        "valueCode": "1"
+                                    },
+                                    {
+                                        "url": "rt",
+                                        "valueCode": "12"
+                                    }
+                                ],
+                                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+                            }
+                        ],
+                        "line": [
+                            "Komplek Kesehatan"
+                        ],
+                        "use": "home"
+                    }
+                ],
+                "birthDate": "1994-01-01",
+                "gender": "male",
+                "id": "10009880728",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nakes-his-number",
+                        "value": "10009880728"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik",
+                        "use": "official",
+                        "value": "7209061211900001"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-11-05T09:09:10.336694+00:00",
+                    "versionId": "MTczMDc5Nzc1MDMzNjY5NDAwMA"
+                },
+                "name": [
+                    {
+                        "text": "dr. Alexander",
+                        "use": "official"
+                    }
+                ],
+                "qualification": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "code": "STR-KKI",
+                                    "display": "Surat Tanda Registrasi Dokter",
+                                    "system": "https://terminology.kemkes.go.id/v1-0302"
+                                }
+                            ]
+                        },
+                        "identifier": [
+                            {
+                                "system": "https://fhir.kemkes.go.id/id/str-kki-number",
+                                "value": "1234567887654321"
+                            }
+                        ]
+                    }
+                ],
+                "resourceType": "Practitioner"
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "93001229",
+                        "display": "Alteplase 50 mg Serbuk Injeksi (ACTILYSE)",
+                        "system": "http://sys-ids.kemkes.go.id/kfa"
+                    }
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/MedicationType",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "code": "NC",
+                                "display": "Non-compound",
+                                "system": "http://terminology.kemkes.go.id/CodeSystem/medication-type"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "form": {
+                "coding": [
+                    {
+                        "code": "BS049",
+                        "display": "Serbuk Injeksi",
+                        "system": "http://terminology.kemkes.go.id/CodeSystem/medication-form"
+                    }
+                ]
+            },
+            "id": "ccbda0d1-c412-414c-ac67-c29055381365",
+            "identifier": [
+                {
+                    "system": "http://sys-ids.kemkes.go.id/medication/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0",
+                    "use": "official",
+                    "value": "6667331"
+                }
+            ],
+            "ingredient": [
+                {
+                    "isActive": true,
+                    "itemCodeableConcept": {
+                        "coding": [
+                            {
+                                "code": "91000582",
+                                "display": "Alteplase",
+                                "system": "http://sys-ids.kemkes.go.id/kfa"
+                            }
+                        ]
+                    },
+                    "strength": {
+                        "denominator": {
+                            "code": "415818006",
+                            "system": "http://snomed.info/sct",
+                            "unit": "Vial - unit of product usage",
+                            "value": 1
+                        },
+                        "numerator": {
+                            "code": "mg",
+                            "system": "http://unitsofmeasure.org",
+                            "value": 50
+                        }
+                    }
+                }
+            ],
+            "manufacturer": {
+                "reference": "Organization/6e3e3a13-8114-44b2-90b3-bbaeeeebf9f0"
+            },
+            "meta": {
+                "lastUpdated": "2025-08-08T08:15:20.011477+00:00",
+                "profile": [
+                    "https://fhir.kemkes.go.id/r4/StructureDefinition/Medication"
+                ],
+                "versionId": "MTc1NDY0MDkyMDAxMTQ3NzAwMA"
+            },
+            "resourceType": "Medication",
+            "status": "active"
+        },
+        {
+            "category": [
+                {
+                    "coding": [
+                        {
+                            "code": "problem-list-item",
+                            "display": "Problem List Item",
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+                        }
+                    ]
+                }
+            ],
+            "clinicalStatus": {
+                "coding": [
+                    {
+                        "code": "active",
+                        "display": "Active",
+                        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+                    }
+                ]
+            },
+            "code": {
+                "coding": [
+                    {
+                        "code": "20022000",
+                        "display": "Weakness of one side of body",
+                        "system": "http://snomed.info/sct"
+                    }
+                ]
+            },
+            "encounter": {
+                "display": "Kunjungan Claudia Sintia tanggal 01 Maret 2023",
+                "reference": "Encounter/9939c7ba-305b-4398-b366-6ee9458fe21f"
+            },
+            "id": "f6ae9b21-187f-43bc-ab0f-995a1782d92b",
+            "identifier": [],
+            "meta": {
+                "lastUpdated": "2025-08-08T07:57:05.509878+00:00",
+                "versionId": "MTc1NDYzOTgyNTUwOTg3ODAwMA"
+            },
+            "note": [
+                {
+                    "text": "Pasien mengalami lemah pada separuh anggota tubuh"
+                }
+            ],
+            "onsetDateTime": "2023-03-01T01:00:00+00:00",
+            "recordedDate": "2023-03-01T02:10:00+00:00",
+            "resourceType": "Condition",
+            "subject": {
+                "display": "Claudia Sintia",
+                "reference": "Patient/P03647103112"
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "search",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=1860f97b-d8bf-4604-9872-0a39785fb105&_include=%2A&subject=P03647103112"
+        },
+        {
+            "relation": "first",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=1860f97b-d8bf-4604-9872-0a39785fb105&_include=%2A&subject=P03647103112"
+        },
+        {
+            "relation": "self",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Composition/?_id=1860f97b-d8bf-4604-9872-0a39785fb105&_include=%2A&subject=P03647103112"
+        }
+    ],
+    "resourceType": "Bundle",
+    "total": 31,
+    "type": "searchset"
+}

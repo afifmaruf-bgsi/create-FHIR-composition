@@ -1,0 +1,1349 @@
+{
+  "resourceType": "Bundle",
+  "type": "document",
+  "timestamp": "2025-11-26T16:48:02.398481Z",
+  "entry": [
+    {
+      "fullUrl": "Composition/generated-comp-c5fc74fb-671a-4334-93c7-69bb422aa56c",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "generated-comp-c5fc74fb-671a-4334-93c7-69bb422aa56c",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11506-3",
+              "display": "Clinical Document"
+            }
+          ]
+        },
+        "title": "Synthetic Composition Document (2025-11-26T16:48:02.398326Z)",
+        "date": "2025-11-26T16:48:02.398342Z",
+        "author": [
+          {
+            "display": "SyntheticGenerator"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "section": [
+          {
+            "title": "Anamnesis",
+            "entry": [
+              {
+                "reference": "Condition/93120878-e240-4dc1-8e56-e79da2faf872"
+              },
+              {
+                "reference": "Observation/bc54a402-6c42-40e6-8f62-924e01e136f4"
+              },
+              {
+                "reference": "Observation/143b575b-43ff-439b-b1fa-46ff63f5128e"
+              }
+            ]
+          },
+          {
+            "title": "Hasil Pemeriksaan Penunjang",
+            "entry": [
+              {
+                "reference": "Observation/20ac794a-d4b1-4471-bc78-53b23f398436"
+              },
+              {
+                "reference": "Observation/44c7cc68-07c6-4e46-9c9d-1441bf032692"
+              },
+              {
+                "reference": "Observation/d684f189-16f0-45e8-90f4-bd908aee4c62"
+              },
+              {
+                "reference": "Observation/d66dd8fd-117a-45a0-a66c-497ed6ad0664"
+              }
+            ]
+          },
+          {
+            "title": "Tindakan/Prosedur Medis",
+            "entry": [
+              {
+                "reference": "Procedure/904c010f-8230-4a21-acf6-0948d3401d38"
+              }
+            ]
+          },
+          {
+            "title": "Diagnosis",
+            "entry": [
+              {
+                "reference": "Condition/ced21ea3-f8a6-4b30-8d13-2586c4984315"
+              },
+              {
+                "reference": "Condition/a0ae133c-9469-4107-a5b2-1311a122ece1"
+              },
+              {
+                "reference": "Condition/2578abce-04d1-484a-9a67-73dbbfc79cac"
+              }
+            ]
+          },
+          {
+            "title": "Pemeriksaan Uronefrologi",
+            "entry": [
+              {
+                "reference": "Observation/6fd79261-7933-4863-b976-39d29b8483a7"
+              }
+            ]
+          },
+          {
+            "title": "Obat",
+            "entry": [
+              {
+                "reference": "MedicationRequest/b2d6c3e9-affb-49d8-849b-7de979d3c48b"
+              }
+            ]
+          },
+          {
+            "title": "Episode Perawatan",
+            "entry": [
+              {
+                "reference": "EpisodeOfCare/c5b0b46a-ce31-4260-981d-a0a9b15bab6e"
+              }
+            ]
+          },
+          {
+            "title": "Pemeriksaan Fisik",
+            "entry": [
+              {
+                "reference": "Observation/08cdd90b-a1d7-4102-90c2-ac189a5db086"
+              },
+              {
+                "reference": "Observation/a520c046-b667-4c85-8311-482a0aa83095"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5cdc4f2d-cbb0-477e-ac6a-41afabfaf689",
+        "name": [
+          {
+            "use": "official",
+            "family": "Synthetic-5cdc4f2d",
+            "given": [
+              "Patient"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1986-01-01",
+        "identifier": [
+          {
+            "system": "urn:synthetic",
+            "value": "5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/143b575b-43ff-439b-b1fa-46ff63f5128e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "143b575b-43ff-439b-b1fa-46ff63f5128e",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73211009",
+              "display": "Diabetes mellitus"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:20:00+00:00",
+        "valueBoolean": false
+      }
+    },
+    {
+      "fullUrl": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "1fb50556-ad92-45bf-82be-15c32b005824",
+        "status": "finished",
+        "class": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulatory"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "serviceProvider": {
+          "reference": "Organization/10000002"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attender"
+                  }
+                ]
+              }
+            ],
+            "individual": {
+              "display": "dr. Bronsig",
+              "reference": "Practitioner/N10000001"
+            }
+          }
+        ],
+        "period": {
+          "start": "2024-04-24T03:00:00+00:00",
+          "end": "2024-04-24T04:00:00+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "Organization/10000002",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "10000002",
+        "name": "Fasilitas Kesehatan 10000002",
+        "identifier": [
+          {
+            "system": "http://sys-ids.kemkes.go.id/organization",
+            "value": "10000002"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Practitioner/N10000001",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "N10000001",
+        "name": [
+          {
+            "use": "official",
+            "text": "dr. Bronsig"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://fhir.kemkes.go.id/id/nakes-his-number",
+            "value": "N10000001"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "EpisodeOfCare/c5b0b46a-ce31-4260-981d-a0a9b15bab6e",
+      "resource": {
+        "resourceType": "EpisodeOfCare",
+        "id": "c5b0b46a-ce31-4260-981d-a0a9b15bab6e",
+        "status": "active",
+        "patient": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "managingOrganization": {
+          "reference": "Organization/10000002"
+        },
+        "period": {
+          "start": "2024-04-24T03:15:00+00:00"
+        },
+        "identifier": [
+          {
+            "system": "http://sys-ids.kemkes.go.id/episode-of-care/10000002",
+            "value": "EOC-URONEF-20240424-0001"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/20ac794a-d4b1-4471-bc78-53b23f398436",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "20ac794a-d4b1-4471-bc78-53b23f398436",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33914-3",
+              "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:40:00+00:00",
+        "valueQuantity": {
+          "value": 25,
+          "unit": "mL/min/1.73m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/1.73m2"
+        },
+        "performer": [
+          {
+            "reference": "Organization/10000002"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/a0ae133c-9469-4107-a5b2-1311a122ece1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a0ae133c-9469-4107-a5b2-1311a122ece1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N18.4",
+              "display": "Chronic kidney disease, stage 4 (severe)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "recordedDate": "2024-04-24T03:58:00+00:00",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/d684f189-16f0-45e8-90f4-bd908aee4c62",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d684f189-16f0-45e8-90f4-bd908aee4c62",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:40:00+00:00",
+        "valueQuantity": {
+          "value": 2.6,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        },
+        "performer": [
+          {
+            "reference": "Organization/10000002"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/d66dd8fd-117a-45a0-a66c-497ed6ad0664",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d66dd8fd-117a-45a0-a66c-497ed6ad0664",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "imaging",
+                "display": "Imaging"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "30765-8",
+              "display": "Kidney left US"
+            }
+          ],
+          "text": "USG Ginjal Kiri"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:50:00+00:00",
+        "valueString": "Tidak tampak batu, ukuran ginjal dalam batas",
+        "performer": [
+          {
+            "reference": "Organization/10000002"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Procedure/904c010f-8230-4a21-acf6-0948d3401d38",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "904c010f-8230-4a21-acf6-0948d3401d38",
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/93120878-e240-4dc1-8e56-e79da2faf872",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "93120878-e240-4dc1-8e56-e79da2faf872",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Riwayat obstruksi saluran kemih"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "onsetDateTime": "2024-04-01T00:00:00+00:00",
+        "recordedDate": "2024-04-24T03:15:00+00:00",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/2578abce-04d1-484a-9a67-73dbbfc79cac",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2578abce-04d1-484a-9a67-73dbbfc79cac",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "recordedDate": "2024-04-24T03:58:00+00:00",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/6fd79261-7933-4863-b976-39d29b8483a7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6fd79261-7933-4863-b976-39d29b8483a7",
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/bc54a402-6c42-40e6-8f62-924e01e136f4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bc54a402-6c42-40e6-8f62-924e01e136f4",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:20:00+00:00",
+        "valueBoolean": true
+      }
+    },
+    {
+      "fullUrl": "MedicationRequest/b2d6c3e9-affb-49d8-849b-7de979d3c48b",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "b2d6c3e9-affb-49d8-849b-7de979d3c48b",
+        "status": "completed",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                "code": "outpatient",
+                "display": "Outpatient"
+              }
+            ]
+          }
+        ],
+        "medicationCodeableConcept": {
+          "text": "Captopril 25 mg Tablet"
+        },
+        "subject": {
+          "display": "Patient_Name",
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "authoredOn": "2024-04-24T04:00:00+00:00",
+        "requester": {
+          "display": "dr. Bronsig",
+          "reference": "Practitioner/N10000001"
+        },
+        "priority": "routine",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10",
+                "code": "I10",
+                "display": "Essential (primary) hypertension"
+              }
+            ]
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (25 mg) diminum 2x sehari",
+            "timing": {
+              "repeat": {
+                "frequency": 2,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "O",
+                  "display": "Oral"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                },
+                "doseQuantity": {
+                  "value": 25,
+                  "unit": "mg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2024-04-24T04:00:00+00:00",
+            "end": "2024-05-24T04:00:00+00:00"
+          },
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 30,
+            "unit": "TAB",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+            "code": "TAB"
+          },
+          "expectedSupplyDuration": {
+            "value": 30,
+            "unit": "days",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          },
+          "performer": {
+            "reference": "Organization/10000002"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/44c7cc68-07c6-4e46-9c9d-1441bf032692",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "44c7cc68-07c6-4e46-9c9d-1441bf032692",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "imaging",
+                "display": "Imaging"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "30764-1",
+              "display": "Kidney right US"
+            }
+          ],
+          "text": "USG Ginjal Kanan"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:50:00+00:00",
+        "valueString": "Batu 6 mm pada calyx medius ginjal kanan",
+        "performer": [
+          {
+            "reference": "Organization/10000002"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/08cdd90b-a1d7-4102-90c2-ac189a5db086",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "08cdd90b-a1d7-4102-90c2-ac189a5db086",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:25:00+00:00",
+        "valueQuantity": {
+          "value": 70,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/ced21ea3-f8a6-4b30-8d13-2586c4984315",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ced21ea3-f8a6-4b30-8d13-2586c4984315",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "N20.0",
+              "display": "Calculus of kidney"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "recordedDate": "2024-04-24T03:58:00+00:00",
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/a520c046-b667-4c85-8311-482a0aa83095",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a520c046-b667-4c85-8311-482a0aa83095",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic blood pressure"
+            }
+          ]
+        },
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "368209003",
+              "display": "Right arm"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        },
+        "effectiveDateTime": "2024-04-24T03:25:00+00:00",
+        "valueQuantity": {
+          "value": 85,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/75a56f93-0cb7-4ae4-a863-07e9d7eb4143",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75a56f93-0cb7-4ae4-a863-07e9d7eb4143",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402227Z",
+        "valueQuantity": {
+          "value": 67.3,
+          "unit": "beats/minute",
+          "system": "http://unitsofmeasure.org",
+          "code": "{beats}/min"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/7118e3f7-ad2b-445b-8af6-ebf4bf29ba5b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7118e3f7-ad2b-445b-8af6-ebf4bf29ba5b",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402227Z",
+        "valueQuantity": {
+          "value": 18.9,
+          "unit": "breaths/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "breaths/min"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/24cbf6d4-8739-485e-9fc7-7fa342494db5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "24cbf6d4-8739-485e-9fc7-7fa342494db5",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ],
+          "text": "Blood pressure"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402227Z",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic BP"
+            },
+            "valueQuantity": {
+              "value": 119,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic BP"
+            },
+            "valueQuantity": {
+              "value": 78.0,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ],
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/2ad4800e-f8ea-4808-8f33-d12684387f91",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2ad4800e-f8ea-4808-8f33-d12684387f91",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402227Z",
+        "valueQuantity": {
+          "value": 37.0,
+          "unit": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/13e2ac29-32b9-4548-8967-9ff93699c2aa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "13e2ac29-32b9-4548-8967-9ff93699c2aa",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ],
+          "text": "SpO2"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402227Z",
+        "valueQuantity": {
+          "value": 97.6,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "encounter": {
+          "reference": "Encounter/1fb50556-ad92-45bf-82be-15c32b005824"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/6e1063be-88fc-4951-83f4-ed61e4c1c4d1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6e1063be-88fc-4951-83f4-ed61e4c1c4d1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402325Z",
+        "valueQuantity": {
+          "value": 14.2,
+          "unit": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/3722108d-8925-46ac-bade-5253f6fbf2eb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3722108d-8925-46ac-bade-5253f6fbf2eb",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "WBC"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402325Z",
+        "valueQuantity": {
+          "value": 9.3,
+          "unit": "10^9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/f7e05e61-4f26-4ff2-9838-0c24e4ac8485",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7e05e61-4f26-4ff2-9838-0c24e4ac8485",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402325Z",
+        "valueQuantity": {
+          "value": 283,
+          "unit": "10^9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/c8454214-5372-4f8a-aa82-0f61f0a5fc4c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c8454214-5372-4f8a-aa82-0f61f0a5fc4c",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2951-2",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402325Z",
+        "valueQuantity": {
+          "value": 136,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/979507a6-231d-41ff-8096-2b1d1896587d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "979507a6-231d-41ff-8096-2b1d1896587d",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402325Z",
+        "valueQuantity": {
+          "value": 4.4,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/4fab16ec-079d-4489-bb0c-bafbf1295dbe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4fab16ec-079d-4489-bb0c-bafbf1295dbe",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402325Z",
+        "valueQuantity": {
+          "value": 0.8,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/fcf059ac-f958-4f92-9a60-7d66217f3ff9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fcf059ac-f958-4f92-9a60-7d66217f3ff9",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2345-7",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "Patient/5cdc4f2d-cbb0-477e-ac6a-41afabfaf689"
+        },
+        "effectiveDateTime": "2025-11-26T16:48:02.402325Z",
+        "valueQuantity": {
+          "value": 72.3,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      }
+    }
+  ]
+}

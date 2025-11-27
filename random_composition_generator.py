@@ -90,7 +90,7 @@ def load_library(folder, prefix=INPUT_PREFIX):
 # Synthetic Patient helper
 # -------------------------
 def generate_synthetic_patient():
-    pid = str(uuid.uuid4())
+    pid = "P"+str(uuid.uuid4())
     return {
         "resourceType": "Patient",
         "id": pid,
